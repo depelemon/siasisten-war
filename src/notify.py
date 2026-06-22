@@ -27,7 +27,7 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
     for batch_start in range(0, total, _EMBED_FIELD_LIMIT):
         batch = positions[batch_start : batch_start + _EMBED_FIELD_LIMIT]
         title = (
-            f"🚨 {total} lowongan baru dibuka!"
+            f"🚨 {total} lowongan baru dibuka! 🍋"
             if batch_start == 0
             else f"🚨 Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
         )
