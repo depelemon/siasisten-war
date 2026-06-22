@@ -8,7 +8,7 @@ STATE_FILE = Path(__file__).parent.parent / "data" / "state.json"
 def load_state() -> dict[str, Position]:
     if not STATE_FILE.exists() or STATE_FILE.stat().st_size == 0:
         return {}
-    with open(STATE_FILE, encoding="utf-8") as f:
+    with open(STATE_FILE, encoding="utf-8-sig") as f:
         data = json.load(f)
     return {k: Position.from_dict(v) for k, v in data.items()}
 
