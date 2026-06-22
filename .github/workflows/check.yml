@@ -2,7 +2,7 @@ name: Check TA Positions
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes (UTC)
+    - cron: "*/5 * * * *"   # every 5 minutes (UTC)
   workflow_dispatch: {}       # manual trigger for testing
 
 permissions:
