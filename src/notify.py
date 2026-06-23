@@ -1,4 +1,5 @@
 import json
+import random
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -8,16 +9,24 @@ import requests
 from src.scraper import BASE_URL, Position
 
 _EMBED_FIELD_LIMIT = 25
-_THUMBNAIL = Path(__file__).parent.parent / "13.png"
+_THUMBNAILS_DIR = Path(__file__).parent.parent / "thumbnails"
+
+
+def _pick_thumbnail() -> Path | None:
+    images = list(_THUMBNAILS_DIR.glob("*.png"))
+    return random.choice(images) if images else None
 
 
 def _post(webhook_url: str, payload: dict) -> None:
-    if _THUMBNAIL.exists():
-        with open(_THUMBNAIL, "rb") as f:
+    thumb = _pick_thumbnail()
+    if thumb:
+        for embed in payload.get("embeds", []):
+            embed["thumbnail"] = {"url": f"attachment://{thumb.name}"}
+        with open(thumb, "rb") as f:
             r = requests.post(
                 webhook_url,
                 data={"payload_json": json.dumps(payload)},
-                files={"files[0]": ("13.png", f, "image/png")},
+                files={"files[0]": (thumb.name, f, "image/png")},
                 timeout=10,
             )
     else:
@@ -52,7 +61,6 @@ def send_new_positions(positions: list[Position], webhook_url: str, check_count:
             "embeds": [
                 {
                     "title": title,
-                    "thumbnail": {"url": "attachment://13.png"},
                     "color": 0xE74C3C,
                     "fields": [_position_field(p) for p in batch],
                     "footer": {"text": f"siasisten.cs.ui.ac.id • Check #{check_count}"},
@@ -68,7 +76,6 @@ def send_no_changes(total_tracked: int, webhook_url: str, check_count: int = 0) 
         "embeds": [
             {
                 "title": "🍋 Tidak ada lowongan baru.",
-                "thumbnail": {"url": "attachment://13.png"},
                 "description": f"Tidak ada perubahan. {total_tracked} posisi sedang dipantau.",
                 "color": 0x2ECC71,
                 "footer": {"text": f"siasisten.cs.ui.ac.id • Check #{check_count}"},
@@ -86,7 +93,6 @@ def send_error(webhook_url: str, message: str) -> None:
             "embeds": [
                 {
                     "title": "⚠️ SiasistenWar — Error",
-                    "thumbnail": {"url": "attachment://6.png"},
                     "description": message[:2048],
                     "color": 0xFF8C00,
                     "footer": {"text": "siasisten.cs.ui.ac.id"},
