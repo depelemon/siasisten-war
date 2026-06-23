@@ -11,6 +11,18 @@
     "accepted": "0 mahasiswa",
     "apply_url": "/lowongan/detailLamaran/33438/"
   },
+  "99999": {
+    "id": "99999",
+    "term": "Ganjil 2026/2027",
+    "course": "CSTEST999 - 01.00.12.01-2020 — Mata Kuliah Test Baru",
+    "dosen": "test.dosen",
+    "status": "Buka",
+    "can_apply": true,
+    "slots": "3 asisten",
+    "applicants": "0 mahasiswa",
+    "accepted": "0 mahasiswa",
+    "apply_url": "/lowongan/daftarLowongan/99999/"
+  },
   "2476": {
     "id": "2476",
     "term": "Pendek 2025/2026",
