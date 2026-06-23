@@ -51,7 +51,7 @@ def send_no_changes(total_tracked: int, webhook_url: str) -> None:
     payload = {
         "embeds": [
             {
-                "title": "✅ Tidak ada lowongan baru",
+                "title": "✅ Tidak ada lowongan baru <:rossi:1518863461994725386>",
                 "description": f"Tidak ada perubahan. {total_tracked} posisi sedang dipantau.",
                 "color": 0x2ECC71,
                 "footer": {"text": "siasisten.cs.ui.ac.id"},
