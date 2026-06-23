@@ -36,7 +36,7 @@ def _position_field(p: Position) -> dict:
     return {"name": p.course[:256], "value": value[:1024], "inline": False}
 
 
-def send_new_positions(positions: list[Position], webhook_url: str) -> None:
+def send_new_positions(positions: list[Position], webhook_url: str, check_count: int = 0) -> None:
     now = datetime.now(timezone.utc).isoformat()
     total = len(positions)
 
@@ -55,7 +55,7 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
                     "thumbnail": {"url": "attachment://13.png"},
                     "color": 0xE74C3C,
                     "fields": [_position_field(p) for p in batch],
-                    "footer": {"text": "siasisten.cs.ui.ac.id"},
+                    "footer": {"text": f"siasisten.cs.ui.ac.id • Check #{check_count}"},
                     "timestamp": now,
                 }
             ]
@@ -63,7 +63,7 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
         _post(webhook_url, payload)
 
 
-def send_no_changes(total_tracked: int, webhook_url: str) -> None:
+def send_no_changes(total_tracked: int, webhook_url: str, check_count: int = 0) -> None:
     payload = {
         "embeds": [
             {
@@ -71,7 +71,7 @@ def send_no_changes(total_tracked: int, webhook_url: str) -> None:
                 "thumbnail": {"url": "attachment://13.png"},
                 "description": f"Tidak ada perubahan. {total_tracked} posisi sedang dipantau.",
                 "color": 0x2ECC71,
-                "footer": {"text": "siasisten.cs.ui.ac.id"},
+                "footer": {"text": f"siasisten.cs.ui.ac.id • Check #{check_count}"},
                 "timestamp": datetime.now(timezone.utc).isoformat(),
             }
         ]

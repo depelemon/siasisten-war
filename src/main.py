@@ -8,7 +8,7 @@ except ImportError:
     pass
 
 from src.scraper import login, fetch_listings, parse_listings
-from src.state import load_state, save_state
+from src.state import load_state, save_state, load_counter, save_counter
 from src.diff import find_new_openings
 from src.notify import send_new_positions, send_no_changes, send_error
 
@@ -40,8 +40,10 @@ def main() -> None:
         sys.exit(1)
     print(f"Parsed {len(current)} positions.")
 
-    # --- Load previous state ---
+    # --- Load previous state and increment counter ---
     previous = load_state()
+    check_count = load_counter() + 1
+    save_counter(check_count)
 
     # --- First run: seed silently ---
     if not previous:
@@ -55,12 +57,12 @@ def main() -> None:
     # --- No changes: notify quietly and update state ---
     if not new_openings:
         save_state(current)
-        send_no_changes(len(current), webhook_url)
+        send_no_changes(len(current), webhook_url, check_count)
         print(f"No new openings. {len(current)} positions tracked.")
         return
 
     # --- Notify first, then save (so a failed send retries next run) ---
-    send_new_positions(list(new_openings.values()), webhook_url)
+    send_new_positions(list(new_openings.values()), webhook_url, check_count)
     save_state(current)
     print(f"Notified about {len(new_openings)} new opening(s).")
 

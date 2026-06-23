@@ -3,6 +3,7 @@ from pathlib import Path
 from src.scraper import Position
 
 STATE_FILE = Path(__file__).parent.parent / "data" / "state.json"
+COUNTER_FILE = Path(__file__).parent.parent / "data" / "counter.json"
 
 
 def load_state() -> dict[str, Position]:
@@ -20,6 +21,21 @@ def load_state() -> dict[str, Position]:
         except (UnicodeDecodeError, json.JSONDecodeError):
             continue
     raise RuntimeError(f"Could not decode {STATE_FILE} — unrecognised encoding or malformed JSON.")
+
+
+def load_counter() -> int:
+    if not COUNTER_FILE.exists():
+        return 0
+    try:
+        return json.loads(COUNTER_FILE.read_text(encoding="utf-8")).get("check_count", 0)
+    except Exception:
+        return 0
+
+
+def save_counter(count: int) -> None:
+    COUNTER_FILE.parent.mkdir(exist_ok=True)
+    with open(COUNTER_FILE, "w", encoding="utf-8") as f:
+        json.dump({"check_count": count}, f)
 
 
 def save_state(positions: dict[str, Position]) -> None:
