@@ -19,26 +19,28 @@ def _position_field(p: Position) -> dict:
     return {"name": p.course[:256], "value": value[:1024], "inline": False}
 
 
-def send_new_positions(positions: list[Position], webhook_url: str) -> None:
+def send_new_positions(positions: list[Position], webhook_url: str, test: bool = False) -> None:
     """Send one or more Discord embeds (batched to respect the 25-field limit)."""
     now = datetime.now(timezone.utc).isoformat()
     total = len(positions)
+    prefix = "[TEST] " if test else ""
+    color = 0xF1C40F if test else 0xE74C3C  # yellow for test, red for real
 
     for batch_start in range(0, total, _EMBED_FIELD_LIMIT):
         batch = positions[batch_start : batch_start + _EMBED_FIELD_LIMIT]
         title = (
-            f"🍋 {total} lowongan baru dibuka! "
+            f"{prefix}🍋 {total} lowongan baru dibuka!"
             if batch_start == 0
-            else f"🍋 Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
+            else f"{prefix}🍋 Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
         )
         payload = {
             "content": "@everyone",
             "embeds": [
                 {
                     "title": title,
-                    "color": 0xE74C3C,
+                    "color": color,
                     "fields": [_position_field(p) for p in batch],
-                    "footer": {"text": "siasisten.cs.ui.ac.id"},
+                    "footer": {"text": f"siasisten.cs.ui.ac.id{' • TEST MODE' if test else ''}"},
                     "timestamp": now,
                 }
             ]
@@ -47,14 +49,15 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
         r.raise_for_status()
 
 
-def send_no_changes(total_tracked: int, webhook_url: str) -> None:
+def send_no_changes(total_tracked: int, webhook_url: str, test: bool = False) -> None:
+    prefix = "[TEST] " if test else ""
     payload = {
         "embeds": [
             {
-                "title": "✅ Tidak ada lowongan baru",
+                "title": f"{prefix}✅ Tidak ada lowongan baru",
                 "description": f"Tidak ada perubahan. {total_tracked} posisi sedang dipantau.",
-                "color": 0x2ECC71,
-                "footer": {"text": "siasisten.cs.ui.ac.id"},
+                "color": 0xF1C40F if test else 0x2ECC71,
+                "footer": {"text": f"siasisten.cs.ui.ac.id{' • TEST MODE' if test else ''}"},
                 "timestamp": datetime.now(timezone.utc).isoformat(),
             }
         ]

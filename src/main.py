@@ -27,7 +27,8 @@ def main() -> None:
 
     # --- Login & fetch (or read mock file for testing) ---
     test_html_path = os.environ.get("TEST_HTML_PATH", "")
-    if test_html_path:
+    is_test = bool(test_html_path)
+    if is_test:
         print(f"TEST MODE: reading from {test_html_path}")
         try:
             html = open(test_html_path, encoding="utf-8").read()
@@ -64,12 +65,12 @@ def main() -> None:
     # --- No changes: notify quietly and update state ---
     if not new_openings:
         save_state(current)
-        send_no_changes(len(current), webhook_url)
+        send_no_changes(len(current), webhook_url, test=is_test)
         print(f"No new openings. {len(current)} positions tracked.")
         return
 
     # --- Notify first, then save (so a failed send retries next run) ---
-    send_new_positions(list(new_openings.values()), webhook_url)
+    send_new_positions(list(new_openings.values()), webhook_url, test=is_test)
     save_state(current)
     print(f"Notified about {len(new_openings)} new opening(s).")
 
