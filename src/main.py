@@ -25,13 +25,22 @@ def main() -> None:
         print("ERROR: DISCORD_WEBHOOK_URL not set.", file=sys.stderr)
         sys.exit(1)
 
-    # --- Login & fetch ---
-    try:
-        session = login(username, password)
-        html = fetch_listings(session)
-    except Exception as e:
-        send_error(webhook_url, f"Failed to fetch listings: {e}")
-        sys.exit(1)
+    # --- Login & fetch (or read mock file for testing) ---
+    test_html_path = os.environ.get("TEST_HTML_PATH", "")
+    if test_html_path:
+        print(f"TEST MODE: reading from {test_html_path}")
+        try:
+            html = open(test_html_path, encoding="utf-8").read()
+        except Exception as e:
+            send_error(webhook_url, f"Could not read TEST_HTML_PATH: {e}")
+            sys.exit(1)
+    else:
+        try:
+            session = login(username, password)
+            html = fetch_listings(session)
+        except Exception as e:
+            send_error(webhook_url, f"Failed to fetch listings: {e}")
+            sys.exit(1)
 
     # --- Parse ---
     current = parse_listings(html)

@@ -1,0 +1,2710 @@
+<html lang="en"><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Portal Aplikasi - Sistem Informasi Asisten</title>
+    <!--CSS Files-->
+
+    
+    <link rel="stylesheet" href="/static/css/reset.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/static/css/grid.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/static/css/typography.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/static/css/forms.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/static/css/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css">
+    <link rel="icon" href="/static/images/siasisten.ico" type="image/png">
+    <!-- jQuery !-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"> </script><script bis_use="true" type="text/javascript" charset="utf-8" nonce="" data-dynamic-id="a4017498-1684-41f8-89af-ea1fd2fea255" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js"></script><script bis_use="true" type="text/javascript" charset="utf-8" nonce="" data-dynamic-id="a4017498-1684-41f8-89af-ea1fd2fea255" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/101.js"></script>
+    <!-- jQuery UI !-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+</head>
+<body __processed_0251b713-f47b-44be-94e6-a4e894fa0fdf__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJlbmFibGVkIiwiRkFDRUJPT0siOiJlbmFibGVkIiwiVFdJVFRFUiI6ImVuYWJsZWQiLCJSRURESVQiOiJlbmFibGVkIiwiUElOVEVSRVNUIjoiZW5hYmxlZCIsIklOU1RBR1JBTSI6ImVuYWJsZWQiLCJUSUtUT0siOiJlbmFibGVkIiwiTElOS0VESU4iOiJlbmFibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMS4xIiwic2NvcmUiOjIwMTAxMH1d">
+    <div class="container" bis_skin_checked="1">
+        <div id="header" class="span-24 last" bis_skin_checked="1">
+            <div id="logo" class="span-2" bis_skin_checked="1">
+                <img style="width: 250%;margin-left:4%;" src="/static/images/logo-fasilkom-baru.png">
+            </div>
+            <div id="title" style="padding-left: 20%; padding-top: 2.8%;" class="span-22 last" bis_skin_checked="1">
+                <h1 style="font-size: 300%;" class="title">Sistem Informasi Asisten</h1>
+            </div> 
+        </div>
+
+        <div class="span-24 last" bis_skin_checked="1">
+            
+            
+
+<style>
+    .nav.navbar-nav li a.dropdown-toggle {
+        color: white;
+    }
+
+    .navbar.navbar-inverse {
+        background: navy;
+    }
+</style>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid" bis_skin_checked="1">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" bis_skin_checked="1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" bis_skin_checked="1">
+
+            <ul class="nav navbar-nav">
+
+                
+
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lowongan <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                            <li><a href="/lowongan/listLowongan/">List Lowongan Asisten</a></li>
+                        
+                        
+                        
+                    </ul>
+                </li>
+                
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        
+                        
+                            <li><a href="/log/listLowonganAst">Log Asistensi Per Matakuliah</a></li>
+                        
+                        
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Honor dan Pembayaran <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/keuangan/listPembayaranPerAsisten">
+                            
+                                Lihat Pembayaran Honor
+                            
+                        </a></li>
+                        
+                        
+                        
+                        
+                    </ul>
+                </li>
+
+                
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">david.liman <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                            <li><a href="/lowongan/updateProfil/">Profil Asisten</a></li>
+                        
+                        
+                            <li><a href="/administrasi/pesan/">Pesan
+                                
+                                </a></li>
+                        
+                        
+                        <li>
+                             
+                                 <a href="/manual/">
+                                    Manual Mahasiswa
+                                 </a>
+                             
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/logout/">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+            
+        </div><!-- end of login-info -->
+
+        <div id="content" class="span-24 last" bis_skin_checked="1">            
+            <div id="content" class="span-24 last" bis_skin_checked="1">
+                <div id="main-content" class="prepend-1 span-24 last" bis_skin_checked="1">
+                    
+
+
+<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="/static/bootstrap/css/bootstrap-theme.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
+
+
+
+<link rel="stylesheet" href="/static/css/styles2.css" type="text/css">
+<link rel="stylesheet" href="/static/css/reset.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/static/css/grid.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/static/css/typography.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/static/css/forms.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/static/css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="/static/css/style.css" type="text/css">
+<link rel="icon" href="/static/images/siasisten.ico" type="image/png">
+<link rel="stylesheet" href="/static/css/jquery.easy-pie-chart.css" type="text/css">
+
+
+<script src="/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/static/js/jquery.easy-pie-chart.js" type="text/javascript"></script>
+
+<!-- jQuery -->
+
+
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+<script src="/static/js/jquery.easy-pie-chart.js" type="text/javascript"></script>
+<script>
+        $(document).ready(
+                function() {
+
+                    $('#table_id').dataTable(
+                            {
+                                "lengthMenu" : [[ 10, 20, 50, 100, -1 ], [ 10, 20, 50, 100, "All" ]]
+                            }).fnSort([ [ 3, 'asc' ] ]);
+
+                });
+</script>
+
+    <script type="text/javascript">
+
+      window.onload =
+        function(e) {
+            $('#myModal').modal('show');
+        };
+    </script>
+
+	
+    
+    <h2 class="content-title">Daftar Lowongan Asisten</h2>
+
+    
+        Note:<br>
+<strong style="color: red;">Kepada seluruh Asisten Dosen diharapkan menggunakan rekening Bank atas nama Anda sendiri. Jika tidak, Anda wajib menyerahkan Surat Kuasa untuk proses pembayaran honor Anda</strong>
+<br><br><br>
+    
+
+    
+
+        <h4 id="next-term-header">Ganjil 2026/2027</h4>
+
+        <table>
+            <tbody><tr>
+                <th width="5%">No</th>
+                <th>Mata Kuliah / Nama Lowongan</th>
+                <th>Dosen Pembuka</th>
+                <th>Status Lowongan</th>
+                <th>Jumlah Lowongan</th>
+                <th>Jumlah Pelamar</th>
+                <th>Jumlah Pelamar Diterima</th>
+                <th>Status Lamaran</th>
+                <th>Daftar/Detail</th>
+            </tr>
+            
+                <tr>
+                    <td align="center">1 </td>
+                    
+                        <td>CSCM601252 - 01.00.12.01-2020 <br> Pengantar Organisasi Komputer  </td>
+                    
+                    <td align="center">adhi</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        melamar
+                    </td>
+                    <td align="center">
+                        
+                            <a href="/lowongan/detailLamaran/33438/" class="button">
+                                Detail
+                            </a>
+                        
+                    </td>
+                </tr>
+            
+        
+    <tr>
+        <td align="center">99 </td>
+        <td>CSTEST999 - 01.00.12.01-2020 <br> Mata Kuliah Test Baru  </td>
+        <td align="center">test.dosen</td>
+        <td align="center">
+            Buka
+        </td>
+        <td align="center">3 asisten</td>
+        <td align="center">0 mahasiswa</td>
+        <td align="center">0 mahasiswa</td>
+        <td></td>
+        <td align="center">
+            <a href="/lowongan/daftarLowongan/99999/" class="button">
+                Daftar
+            </a>
+        </td>
+    </tr>
+</tbody></table>
+
+    
+
+    
+
+        <h4 id="short-term-header">Pendek 2025/2026</h4>
+
+        <table>
+            <tbody><tr>
+                <th width="5%">No</th>
+                <th>Mata Kuliah / Nama Lowongan</th>
+                <th>Dosen Pembuka</th>
+                <th>Status Lowongan</th>
+                <th>Jumlah Lowongan</th>
+                <th>Jumlah Pelamar</th>
+                <th>Jumlah Pelamar Diterima</th>
+                <th>Status Lamaran</th>
+                <th>Daftar/Detail</th>
+            </tr>
+            
+                <tr>
+                    <td align="center">1 </td>
+                    
+                        <td>CSGE601021 - 01.00.12.01-2020 <br> Dasar - Dasar Pemrograman 2  </td>
+                    
+                    <td align="center">adea</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">6 asisten</td>
+                    <td align="center">27 mahasiswa</td>
+                    <td align="center">11 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2476/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">2 </td>
+                    
+                        <td>CSGE601010 - 06.00.12.01-2020 <br> Matematika Diskret 1 S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">rahmad.mahendra, saptawijaya</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">26 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2477/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">3 </td>
+                    
+                        <td>CSGE601012 - 06.00.12.01-2020 <br> Kalkulus 1 S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">andi.pujo, ikhsanul.habibie12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">29 mahasiswa</td>
+                    <td align="center">9 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2478/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">4 </td>
+                    
+                        <td>CSGE602012 - 01.00.12.01-2020 <br> Aljabar Linier  </td>
+                    
+                    <td align="center">rahmad.mahendra, alfan</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">23 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        melamar
+                    </td>
+                    <td align="center">
+                        
+                            <a href="/lowongan/detailLamaran/33323/" class="button">
+                                Detail
+                            </a>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">5 </td>
+                    
+                        <td>CSCM602055 - 01.00.12.01-2020 <br> Sistem Operasi  </td>
+                    
+                    <td align="center">yohanes</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">10 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">6 </td>
+                    
+                        <td>CSIM602155 - 06.00.12.01-2024 <br> Pengantar Sistem Operasi S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">yohanes</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">13 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">7 </td>
+                    
+                        <td>IKI10080 - 01.00.12.01-2000 <br> Kalkulus II  </td>
+                    
+                    <td align="center">heru</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">9 mahasiswa</td>
+                    <td align="center">5 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2482/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">8 </td>
+                    
+                        <td>Pengembangan Sistem Fasilkom</td>
+                    
+                    <td align="center">adea, aruniyasmin</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">9 </td>
+                    
+                        <td>CSGE601011 - 06.00.12.01-2020 <br> Matematika Diskret 2 S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">evi.y</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">7 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">10 </td>
+                    
+                        <td>CSGE602040 - 01.00.12.01-2018 <br> Struktur Data &amp; Algoritma  </td>
+                    
+                    <td align="center">setiawan</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+        </tbody></table>
+
+    
+
+    
+    <h4 id="term-header">Genap 2025/2026</h4>
+
+        <table>
+            <tbody><tr>
+                <th width="5%">No</th>
+                <th>Mata Kuliah / Nama Lowongan</th>
+                <th>Prodi Mata Kuliah</th>
+                <th>Semester</th>
+                <th>Dosen Pembuka</th>
+                <th>Status Lowongan</th>
+                <th>Jumlah Lowongan</th>
+                <th>Jumlah Pelamar</th>
+                <th>Jumlah Pelamar Diterima</th>
+                <th>Status Lamaran</th>
+                <th>Daftar/Detail</th>
+            </tr>
+            
+                <tr>
+                    <td align="center">1 </td>
+                    
+                        <td>CSCM601252 - 01.00.12.01-2017 <br> Pengantar Organisasi Komputer S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">adhi, efi</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">13 asisten</td>
+                    <td align="center">28 mahasiswa</td>
+                    <td align="center">13 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">2 </td>
+                    
+                        <td>CSCE604271 - 01.00.12.01-2024 <br> Arsitektur Aplikasi Web S1 S1</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ari.w</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">5 mahasiswa</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2462/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">3 </td>
+                    
+                        <td>CSCM601252 - 02.00.12.01-2020 <br> Pengantar Organisasi Komputer S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">efi</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">10 mahasiswa</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">4 </td>
+                    
+                        <td>CSCE604121 - 01.00.12.01-2020 <br> Game Development  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">nur.endah12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">6 asisten</td>
+                    <td align="center">11 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2460/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">5 </td>
+                    
+                        <td>CSGE602040 - 06.00.12.01-2018 <br> Struktur Data &amp; Algoritma S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">lintang.matahari01</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">54 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">6 </td>
+                    
+                        <td>CSCE6042780 - 06.00.12.01-2024 <br> Pengelolaan Produk Digital S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">p.indahati</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">17 mahasiswa</td>
+                    <td align="center">8 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">7 </td>
+                    
+                        <td>CSCE604222 - 01.00.12.01-2020 <br> Pemrograman Logika  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">saptawijaya</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">8 </td>
+                    
+                        <td>CSGE602012 - 01.00.12.01-2020 <br> Aljabar Linier  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">kasmj, lulu.ilmaknun12</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">5 asisten</td>
+                    <td align="center">34 mahasiswa</td>
+                    <td align="center">7 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">9 </td>
+                    
+                        <td>CSIE604180 - 06.00.12.01-2020 <br> Manajemen Pengetahuan S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ave.pinem, thiasunarso, hanafitriani</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">25 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">10 </td>
+                    
+                        <td>CSCE604229 - 01.00.12.01-2020 <br> Pemrograman Paralel  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ari.w, heru</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2464/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">11 </td>
+                    
+                        <td>CSGE601012 - 01.00.12.01-2020 <br> Kalkulus 1  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ikhsanul.habibie12, chan, okkyibrohim</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">10 asisten</td>
+                    <td align="center">35 mahasiswa</td>
+                    <td align="center">7 mahasiswa</td>
+                    <td>
+                        melamar
+                    </td>
+                    <td align="center">
+                        
+                            <a href="/lowongan/detailLamaran/32086/" class="button">
+                                Detail
+                            </a>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">12 </td>
+                    
+                        <td>CSCE802138 - 03.00.12.01-2020 <br> Analisis Data Spasial Lanjut  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">laksmita</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">13 </td>
+                    
+                        <td>UIGE600006 - 01.00.12.01-2020 <br> MPK Terintegrasi  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">jessica.n, lulu.ilmaknun12, aminah, arawinda, ilma.am, kasmj, iisafriyanti, yugo</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">62 mahasiswa</td>
+                    <td align="center">14 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">14 </td>
+                    
+                        <td>CSIM603229 - 06.00.12.01-2016 <br> Proyek Pengembangan Sistem Informasi  </td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">hanafitriani, mishbah, annisamonicha, kamila.alifia12, nabila.clydea02, shabrina.salsabila12</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">10 asisten</td>
+                    <td align="center">44 mahasiswa</td>
+                    <td align="center">14 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">15 </td>
+                    
+                        <td>CSCE604135 - 01.00.12.01-2024 <br> Temu-Balik Informasi S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">alfan</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">8 mahasiswa</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">16 </td>
+                    
+                        <td>CSCE604180 - 06.00.12.01-2024 <br> Pemasaran Media Digital S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">hanafitriani</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">17 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">17 </td>
+                    
+                        <td>Pengurus Lembaga Asisten</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ilma.am</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">19 mahasiswa</td>
+                    <td align="center">8 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2472/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">18 </td>
+                    
+                        <td>CSIE604165 - 06.00.12.01-2020 <br> Manajemen Rantai Suplai S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">widiaresti</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">19 </td>
+                    
+                        <td>CSIE604160 - 06.00.12.01-2020 <br> E-Dagang  </td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">thiasunarso, larastri, putu.wuri</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">5 asisten</td>
+                    <td align="center">42 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">20 </td>
+                    
+                        <td>CSCM603154 - 02.00.12.01-2020 <br> Jaringan Komputer S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">made.harta</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">8 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">21 </td>
+                    
+                        <td>CSI4601852 - 06.00.12.01-2012 <br> Manajemen Sistem Informasi S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">kamila.alifia12, nabila.clydea02</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">34 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2437/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">22 </td>
+                    
+                        <td>Pengawas Ujian</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">aruniyasmin, ilma.am</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">144 mahasiswa</td>
+                    <td align="center">87 mahasiswa</td>
+                    <td>
+                        melamar
+                    </td>
+                    <td align="center">
+                        
+                            <a href="/lowongan/detailLamaran/33336/" class="button">
+                                Detail
+                            </a>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">23 </td>
+                    
+                        <td>CSCE604212 - 01.00.12.01-2020 <br> Persamaan Diferensial  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">wnugroho</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2465/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">24 </td>
+                    
+                        <td>CSIM602263 - 08.00.12.01-2020 <br> Sistem Informasi Perusahaan dan Akuntansi  </td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">annisamonicha, azzahro.fatimah, kamila.alifia12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">9 asisten</td>
+                    <td align="center">47 mahasiswa</td>
+                    <td align="center">10 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2425/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">25 </td>
+                    
+                        <td>CSGE601020 - 01.00.12.01-2020 <br> Dasar-Dasar Pemrograman 1  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">alfan</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">84 mahasiswa</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td>
+                        melamar
+                    </td>
+                    <td align="center">
+                        
+                            <a href="/lowongan/detailLamaran/32025/" class="button">
+                                Detail
+                            </a>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">26 </td>
+                    
+                        <td>CSIE604279 - 08.00.12.01-2020 <br> TIK Untuk Pembangunan  </td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">thiasunarso, yektiwirani</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">6 asisten</td>
+                    <td align="center">34 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2440/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">27 </td>
+                    
+                        <td>Pelatihan Asisten Dosen</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ilma.am</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">228 mahasiswa</td>
+                    <td align="center">219 mahasiswa</td>
+                    <td>
+                        diterima
+                    </td>
+                    <td align="center">
+                        
+                            <a href="/lowongan/detailLamaran/32946/" class="button">
+                                Detail
+                            </a>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">28 </td>
+                    
+                        <td>CSGE603291 - 06.00.12.01-2020 <br> Metodologi Penelitian &amp; Penulisan Ilmiah S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">tusty.nadia12, arawinda, nizar, yova, p.indahati, putu.wuri</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">15 asisten</td>
+                    <td align="center">32 mahasiswa</td>
+                    <td align="center">18 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">29 </td>
+                    
+                        <td>CSGE602013 - 06.00.12.01-2020 <br> Statistika dan Probabilitas S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ika.alfina</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">14 mahasiswa</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">30 </td>
+                    
+                        <td>CSGE603130 - 02.00.12.01-2020 <br> Kecerdasan Artifisial &amp; Sains Data Dasar S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">fariz</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">11 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2466/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">31 </td>
+                    
+                        <td>CSIE802273 - 03.00.12.01-2020 <br> Teknologi Basis Data Lanjut S2 S2</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">satrio.baskoro, wibowo</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2443/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">32 </td>
+                    
+                        <td>CSGE601021 - 02.00.12.01-2020 <br> Dasar-Dasar Pemrograman 2 S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">evi.y</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">33 </td>
+                    
+                        <td>CSCE604258 - 01.00.12.01-2020 <br> Ethical Hacking  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">amril.syalim</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">9 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2398/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">34 </td>
+                    
+                        <td>CSIM802181 - 03.00.12.01-2020 <br> Manajemen Pengetahuan Lanjut S2 S2</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">dana</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">35 </td>
+                    
+                        <td>CSCM602223 - 02.00.12.01-2020 <br> Pemrograman Lanjut S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">dayaadianto, ichlasul.affan12</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">17 mahasiswa</td>
+                    <td align="center">5 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">36 </td>
+                    
+                        <td>CSCM601150 - 01.00.12.01-2020 <br> Pengantar Sistem Digital  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">santo</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">20 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        diterima
+                    </td>
+                    <td align="center">
+                        
+                            <a href="/lowongan/detailLamaran/32320/" class="button">
+                                Detail
+                            </a>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">37 </td>
+                    
+                        <td>CSCM603125 - 02.00.12.01-2020 <br> Rekayasa Perangkat Lunak  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">iis</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">38 </td>
+                    
+                        <td>CSIE604378 - 06.00.12.01-2020 <br> Manajemen Layanan TI S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">yektiwirani, ibad.rahadian12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">5 asisten</td>
+                    <td align="center">16 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2444/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">39 </td>
+                    
+                        <td>CSIE604271 - 06.00.12.01-2020 <br> Penambangan Data &amp; Inteligensia Bisnis  </td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">azzahro.fatimah, larastri, nandhita.zefania12, thiasunarso</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">14 mahasiswa</td>
+                    <td align="center">7 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">40 </td>
+                    
+                        <td>CSCM601213 - 02.00.12.01-2020 <br> Kalkulus 2 S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">heru, aruniyasmin</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">10 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">41 </td>
+                    
+                        <td>CSCM603228 - 01.00.12.01-2020 <br> Proyek Perangkat Lunak  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ichlasul.affan12, mayaretno, putu.edy, ilma.ainur12, adea, dayaadianto</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">16 asisten</td>
+                    <td align="center">34 mahasiswa</td>
+                    <td align="center">18 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">42 </td>
+                    
+                        <td>CSGE602023 - 01.00.12.01-2024 <br> Pengantar Keamanan Perangkat Lunak S1 S1</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">amril.syalim, ibad.rahadian12, mishbah, rizal.fa</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">10 asisten</td>
+                    <td align="center">78 mahasiswa</td>
+                    <td align="center">15 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2400/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">43 </td>
+                    
+                        <td>CSCM601213 - 01.00.12.01-2020 <br> Kalkulus 2  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">okkyibrohim, heru, aruniyasmin</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">10 asisten</td>
+                    <td align="center">46 mahasiswa</td>
+                    <td align="center">10 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">44 </td>
+                    
+                        <td>CSCE604271 - 01.00.12.01-2024 <br> Arsitektur Aplikasi Web S1 S1</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ari.w</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2469/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">45 </td>
+                    
+                        <td>CSCE8O2238 - 03.00.12.01-2020 <br> Desain dan Evaluasi Sistem Berbasis&nbsp;Pengguna S2 S2</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">nancenka, harrybs</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">46 </td>
+                    
+                        <td>CSIM601280 - 06.00.12.01-2020 <br> Prinsip-Prinsip Sistem Informasi S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">widiaresti, putu.wuri, nandhita.zefania12</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">12 asisten</td>
+                    <td align="center">59 mahasiswa</td>
+                    <td align="center">12 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">47 </td>
+                    
+                        <td>CSGE601011 - 06.00.12.01-2020 <br> Matematika Diskret 2 S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">arlisa, saptawijaya, kurniawati.azizah, okkyibrohim, dina, rahmad.mahendra, ikhsanul.habibie12</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">19 asisten</td>
+                    <td align="center">73 mahasiswa</td>
+                    <td align="center">20 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">48 </td>
+                    
+                        <td>CSGE602024 - 06.00.12.01-2020 <br> Sistem Interaksi  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">nancenka, syifa12, harrybs, lintang.matahari01</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">24 asisten</td>
+                    <td align="center">148 mahasiswa</td>
+                    <td align="center">23 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">49 </td>
+                    
+                        <td>CSGE603130 - 01.00.12.01-2020 <br> Kecerdasan Artifisial &amp;  Sains Data Dasar  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">aminah, adila, laksmita, syifa12, aruniyasmin</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">16 asisten</td>
+                    <td align="center">51 mahasiswa</td>
+                    <td align="center">17 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">50 </td>
+                    
+                        <td>Asisten MIK/DIK</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">indra</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2475/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">51 </td>
+                    
+                        <td>CSGE601010 - 06.00.12.01-2020 <br> Matematika Diskret 1 S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">saptawijaya</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">25 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">52 </td>
+                    
+                        <td>CSGE601010 - 02.00.12.01-2020 <br> Matematika Diskret 1 S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">saptawijaya</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">53 </td>
+                    
+                        <td>CSI2601501 - 06.00.12.01-2012 <br> Dasar-Dasar Arsitektur Komputer S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">santo, herik</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">13 asisten</td>
+                    <td align="center">61 mahasiswa</td>
+                    <td align="center">13 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2402/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">54 </td>
+                    
+                        <td>CSCE604232 - 01.00.12.01-2018 <br> Robotika  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">vektor.dewanto12, aprinaldi12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">5 asisten</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2448/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">55 </td>
+                    
+                        <td>CSCM602241 - 01.00.12.01-2020 <br> Teori Bahasa &amp; Automata  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">alfan, ammar.fathin12, dina, rahmad.mahendra, setiawan</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">8 asisten</td>
+                    <td align="center">31 mahasiswa</td>
+                    <td align="center">9 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2449/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">56 </td>
+                    
+                        <td>CSIM602281 - 06.00.12.01-2020 <br> Manajemen Proyek Teknologi Informasi S1 Reguler S1 Reguler</td>
+                    
+                    <td align="center">Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ave.pinem, herik</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">9 asisten</td>
+                    <td align="center">62 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2403/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">57 </td>
+                    
+                        <td>CSGE602070 - 01.00.12.01-2018 <br> Basis Data  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">meganingrum, satrio.baskoro, hendrieg, ilma.am</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">16 asisten</td>
+                    <td align="center">52 mahasiswa</td>
+                    <td align="center">18 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">58 </td>
+                    
+                        <td>CSCM603142 - 01.00.12.01-2020 <br> Desain &amp; Analisis Algoritma  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ammar.fathin12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">5 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2450/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">59 </td>
+                    
+                        <td>CSCM602223 - 01.00.12.01-2020 <br> Pemrograman Lanjut  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ilma.ainur12, adea, ichlasul.affan12, putu.edy</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">15 asisten</td>
+                    <td align="center">62 mahasiswa</td>
+                    <td align="center">16 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2405/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">60 </td>
+                    
+                        <td>CSCM603142 - 02.00.12.01-2020 <br> Desain &amp; Analisis Algoritma S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">ammar.fathin12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2451/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">61 </td>
+                    
+                        <td>CSCM603125 - 01.00.12.01-2020 <br> Rekayasa Perangkat Lunak  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">iis</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">7 mahasiswa</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">62 </td>
+                    
+                        <td>CSGE602040 - 02.00.12.01-2020 <br> Struktur Data &amp; Algoritma S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">setiawan</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">17 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">63 </td>
+                    
+                        <td>CSCM602055 - 01.00.12.01-2020 <br> Sistem Operasi  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">hendrieg</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">11 mahasiswa</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2407/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">64 </td>
+                    
+                        <td>CSGE601021 - 01.00.12.01-2020 <br> Dasar - Dasar Pemrograman 2  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">evi.y, ikhsanul.habibie12, aprinaldi12, iisafriyanti, rahmad.mahendra, ilma.ainur12, adea, dayaadianto, tusty.nadia12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">36 asisten</td>
+                    <td align="center">99 mahasiswa</td>
+                    <td align="center">46 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2401/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">65 </td>
+                    
+                        <td>CSCE604038 - 01.00.12.01-2024 <br> Deep Learning S1 S1</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">adila</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">11 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">66 </td>
+                    
+                        <td>CSCE604243 - 01.00.12.01-2020 <br> Kriptografi &amp; Keamanan Informasi  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">yohanes</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">7 mahasiswa</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">67 </td>
+                    
+                        <td>CSGE601011 - 02.00.12.01-2020 <br> Matematika Diskret 2 S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">rahmad.mahendra, dina</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">7 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2454/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">68 </td>
+                    
+                        <td>CSCE604227 - 01.00.12.01-2020 <br> Pemrograman Sistem  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">yohanes</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">4 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">69 </td>
+                    
+                        <td>CSCE604235 - 01.00.12.01-2020 <br> Pemelajaran Mesin  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">vektor.dewanto12</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">3 asisten</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2455/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">70 </td>
+                    
+                        <td>CSCE604029 - 01.00.12.01-2024 <br> Topik Khusus Ilmu Komputer S1 S1</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">yohanes</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td align="center">1 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">71 </td>
+                    
+                        <td>CSCM603217 - 01.00.12.01-2018 <br> Analisis Numerik  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">meganingrum, chan</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">7 asisten</td>
+                    <td align="center">35 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">72 </td>
+                    
+                        <td>CSCE802133 - 03.00.12.01-2020 <br> Pemelajaran Mesin Lanjut S2 S2</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">kurniawati.azizah</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2456/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">73 </td>
+                    
+                        <td>CSGE602013 - 02.00.12.01-2020 <br> Statistika dan Probabilitas S1 Kls Internasional S1 Kls Internasional</td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">febrianrachmadi</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">2 asisten</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td align="center">2 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">74 </td>
+                    
+                        <td>CSCE604028 - 01.00.12.01-2024 <br> Software Product Line Engineering S1 S1</td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">dayaadianto, mayaretno</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">4 asisten</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td align="center">3 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">75 </td>
+                    
+                        <td>CSCE604137 - 01.00.12.01-2020 <br> Penambangan Data  </td>
+                    
+                    <td align="center">Ilmu Komputer</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">febrianrachmadi, fariz</td>
+                    <td align="center">
+                        
+                            Tutup
+                        
+                    </td>
+                    <td align="center">6 asisten</td>
+                    <td align="center">19 mahasiswa</td>
+                    <td align="center">6 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td align="center">76 </td>
+                    
+                        <td>CSGE614093 - 01.00.12.01-2020 <br> Komputer &amp; Masyarakat  </td>
+                    
+                    <td align="center">Ilmu Komputer / Sistem Informasi</td>
+                    <td align="center">genap 2025/2026</td>
+                    <td align="center">wnugroho, yugo</td>
+                    <td align="center">
+                        
+                            Buka
+                        
+                    </td>
+                    <td align="center">1 asisten</td>
+                    <td align="center">5 mahasiswa</td>
+                    <td align="center">0 mahasiswa</td>
+                    <td>
+                        
+                    </td>
+                    <td align="center">
+                        
+                            
+                                <a href="/lowongan/daftarLowongan/2461/" class="button">
+                                    Daftar
+                                </a>
+                            
+                        
+                    </td>
+                </tr>
+            
+        </tbody></table>
+
+    
+
+
+
+
+                </div> <!-- end of container -->
+                <hr>
+                <div id="footer" class="prepend-top push-3 span-24 last" bis_skin_checked="1">
+                    <p>versi 1.3</p>
+                    <p class="prepend-6" style="color: #262626;">
+                        Hubungi admin melalui email ke siasisten@cs.ui.ac.id untuk melakukan approval atau bila ada pertanyaan tentang Sistem Informasi Asisten.
+                    </p>
+                    <p class="prepend-10">   
+                    <img src="/static/images/makara_csui.gif">
+                    <img src="/static/images/excellence.gif">
+                    </p>
+                </div>             
+            </div>
+        </div>
+    </div>
+
+    <!-- Default Statcounter code for Sistem Pencatatan Asisten
+    https://siasisten.cs.ui.ac.id -->
+    <script type="text/javascript">
+        var sc_project=12339556;
+        var sc_invisible=1;
+        var sc_security="597bc969";
+        var sc_https=1;
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async=""></script>
+    <noscript>
+        <div class="statcounter">
+            <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
+                <img class="statcounter" src="https://c.statcounter.com/12339556/0/597bc969/1/" alt="Web Analytics">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of Statcounter Code -->
+
+	
+</body></html>
