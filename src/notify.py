@@ -86,6 +86,7 @@ def send_error(webhook_url: str, message: str) -> None:
             "embeds": [
                 {
                     "title": "⚠️ SiasistenWar — Error",
+                    "thumbnail": {"url": "attachment://6.png"},
                     "description": message[:2048],
                     "color": 0xFF8C00,
                     "footer": {"text": "siasisten.cs.ui.ac.id"},
