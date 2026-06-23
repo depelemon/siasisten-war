@@ -6,8 +6,6 @@ import requests
 from src.scraper import BASE_URL, Position
 
 _EMBED_FIELD_LIMIT = 25
-_BOT_NAME = "Siasisten War"
-_BOT_AVATAR = "https://siasisten.cs.ui.ac.id/static/images/siasisten.ico"
 
 
 def _position_field(p: Position) -> dict:
@@ -34,8 +32,6 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
             else f"🍋 Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
         )
         payload = {
-            "username": _BOT_NAME,
-            "avatar_url": _BOT_AVATAR,
             "content": "@everyone",
             "embeds": [
                 {
@@ -53,8 +49,6 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
 
 def send_no_changes(total_tracked: int, webhook_url: str) -> None:
     payload = {
-        "username": _BOT_NAME,
-        "avatar_url": _BOT_AVATAR,
         "embeds": [
             {
                 "title": "✅ Tidak ada lowongan baru",
@@ -73,8 +67,6 @@ def send_error(webhook_url: str, message: str) -> None:
     print(f"ERROR: {message}", file=sys.stderr)
     try:
         payload = {
-            "username": _BOT_NAME,
-            "avatar_url": _BOT_AVATAR,
             "embeds": [
                 {
                     "title": "⚠️ SiasistenWar — Error",
