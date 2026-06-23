@@ -34,7 +34,6 @@ def send_new_positions(positions: list[Position], webhook_url: str, test: bool =
             else f"{prefix}🍋 Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
         )
         payload = {
-            "content": "@everyone",
             "embeds": [
                 {
                     "title": title,
@@ -45,6 +44,8 @@ def send_new_positions(positions: list[Position], webhook_url: str, test: bool =
                 }
             ]
         }
+        if not test:
+            payload["content"] = "@everyone"
         r = requests.post(webhook_url, json=payload, timeout=10)
         r.raise_for_status()
 
