@@ -100,6 +100,6 @@ def send_error(webhook_url: str, message: str) -> None:
                 }
             ]
         }
-        requests.post(webhook_url, json=payload, timeout=10)
+        _post(webhook_url, payload)
     except Exception:
         pass
