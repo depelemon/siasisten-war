@@ -10,7 +10,7 @@ except ImportError:
 from src.scraper import login, fetch_listings, parse_listings
 from src.state import load_state, save_state
 from src.diff import find_new_openings
-from src.notify import send_new_positions, send_error
+from src.notify import send_new_positions, send_no_changes, send_error
 
 
 def main() -> None:
@@ -52,9 +52,10 @@ def main() -> None:
     # --- Diff ---
     new_openings = find_new_openings(current, previous)
 
-    # --- No changes: update state and exit quietly ---
+    # --- No changes: notify quietly and update state ---
     if not new_openings:
         save_state(current)
+        send_no_changes(len(current), webhook_url)
         print(f"No new openings. {len(current)} positions tracked.")
         return
 

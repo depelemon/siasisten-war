@@ -47,6 +47,22 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
         r.raise_for_status()
 
 
+def send_no_changes(total_tracked: int, webhook_url: str) -> None:
+    payload = {
+        "embeds": [
+            {
+                "title": "✅ Tidak ada lowongan baru",
+                "description": f"Tidak ada perubahan. {total_tracked} posisi sedang dipantau.",
+                "color": 0x2ECC71,
+                "footer": {"text": "siasisten.cs.ui.ac.id"},
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            }
+        ]
+    }
+    r = requests.post(webhook_url, json=payload, timeout=10)
+    r.raise_for_status()
+
+
 def send_error(webhook_url: str, message: str) -> None:
     print(f"ERROR: {message}", file=sys.stderr)
     try:
