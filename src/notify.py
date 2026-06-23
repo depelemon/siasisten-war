@@ -1,11 +1,28 @@
+import json
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 
 from src.scraper import BASE_URL, Position
 
 _EMBED_FIELD_LIMIT = 25
+_THUMBNAIL = Path(__file__).parent.parent / "13.png"
+
+
+def _post(webhook_url: str, payload: dict) -> None:
+    if _THUMBNAIL.exists():
+        with open(_THUMBNAIL, "rb") as f:
+            r = requests.post(
+                webhook_url,
+                data={"payload_json": json.dumps(payload)},
+                files={"files[0]": ("13.png", f, "image/png")},
+                timeout=10,
+            )
+    else:
+        r = requests.post(webhook_url, json=payload, timeout=10)
+    r.raise_for_status()
 
 
 def _position_field(p: Position) -> dict:
@@ -20,14 +37,13 @@ def _position_field(p: Position) -> dict:
 
 
 def send_new_positions(positions: list[Position], webhook_url: str) -> None:
-    """Send one or more Discord embeds (batched to respect the 25-field limit)."""
     now = datetime.now(timezone.utc).isoformat()
     total = len(positions)
 
     for batch_start in range(0, total, _EMBED_FIELD_LIMIT):
         batch = positions[batch_start : batch_start + _EMBED_FIELD_LIMIT]
         title = (
-            f"🍋 {total} lowongan baru dibuka! "
+            f"🍋 {total} lowongan baru dibuka!"
             if batch_start == 0
             else f"🍋 Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
         )
@@ -36,6 +52,7 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
             "embeds": [
                 {
                     "title": title,
+                    "thumbnail": {"url": "attachment://13.png"},
                     "color": 0xE74C3C,
                     "fields": [_position_field(p) for p in batch],
                     "footer": {"text": "siasisten.cs.ui.ac.id"},
@@ -43,15 +60,15 @@ def send_new_positions(positions: list[Position], webhook_url: str) -> None:
                 }
             ]
         }
-        r = requests.post(webhook_url, json=payload, timeout=10)
-        r.raise_for_status()
+        _post(webhook_url, payload)
 
 
 def send_no_changes(total_tracked: int, webhook_url: str) -> None:
     payload = {
         "embeds": [
             {
-                "title": "✅ Tidak ada lowongan baru <:rossi:1518863461994725386>",
+                "title": "🍋 Tidak ada lowongan baru.",
+                "thumbnail": {"url": "attachment://13.png"},
                 "description": f"Tidak ada perubahan. {total_tracked} posisi sedang dipantau.",
                 "color": 0x2ECC71,
                 "footer": {"text": "siasisten.cs.ui.ac.id"},
@@ -59,8 +76,7 @@ def send_no_changes(total_tracked: int, webhook_url: str) -> None:
             }
         ]
     }
-    r = requests.post(webhook_url, json=payload, timeout=10)
-    r.raise_for_status()
+    _post(webhook_url, payload)
 
 
 def send_error(webhook_url: str, message: str) -> None:
@@ -79,4 +95,4 @@ def send_error(webhook_url: str, message: str) -> None:
         }
         requests.post(webhook_url, json=payload, timeout=10)
     except Exception:
-        pass  # don't compound errors
+        pass
