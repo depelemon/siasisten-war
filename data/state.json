@@ -11,6 +11,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2486/"
   },
+  "2487": {
+    "id": "2487",
+    "term": "Ganjil 2026/2027",
+    "course": "CSAM601012 - 10.00.12.01-2026 - Struktur Linear",
+    "dosen": "alfan",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "1",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2487/"
+  },
   "2479": {
     "id": "2479",
     "term": "Pendek 2025/2026",
@@ -31,7 +43,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "6",
-    "applicants": "28",
+    "applicants": "27",
     "accepted": "11",
     "apply_url": "/lowongan/daftarLowongan/2476/"
   },
