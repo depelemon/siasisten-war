@@ -40,34 +40,18 @@ _HEADERS = {
 def login(username: str, password: str) -> requests.Session:
     s = requests.Session()
     s.headers.update(_HEADERS)
-    r = s.get(f"{BASE_URL}/login/", timeout=15)
-    r.raise_for_status()
 
-    # New React UI: token is in the csrftoken cookie, not an HTML hidden input.
-    # Fall back to HTML parsing for older layout.
-    soup = BeautifulSoup(r.text, "lxml")
-    token_input = soup.find("input", {"name": "csrfmiddlewaretoken"})
-    token = token_input["value"] if token_input else s.cookies.get("csrftoken", "")
-    if not token:
-        raise RuntimeError("Could not find CSRF token (neither in HTML nor in cookie).")
-
+    # New Remix/React SSR app: plain form POST to /login, no CSRF token.
+    # Server sets accessToken + refreshToken JWT cookies on success.
     r = s.post(
-        f"{BASE_URL}/login/",
-        data={
-            "csrfmiddlewaretoken": token,
-            "username": username,
-            "password": password,
-            "next": "",
-        },
-        headers={
-            "Referer": f"{BASE_URL}/login/",
-            "X-CSRFToken": token,
-        },
+        f"{BASE_URL}/login",
+        data={"username": username, "password": password},
+        headers={"Referer": f"{BASE_URL}/login"},
         allow_redirects=False,
         timeout=15,
     )
 
-    if r.status_code != 302:
+    if r.status_code != 302 or not s.cookies.get("accessToken"):
         raise RuntimeError(
             f"Login failed (HTTP {r.status_code}). Check SIASISTEN_USERNAME / SIASISTEN_PASSWORD."
         )
@@ -78,8 +62,9 @@ def login(username: str, password: str) -> requests.Session:
 def fetch_listings(session: requests.Session) -> str:
     r = session.get(f"{BASE_URL}/lowongan/listLowongan/", timeout=15)
     r.raise_for_status()
-    if "Logout" not in r.text:
-        raise RuntimeError("Listings page looks unauthenticated — session may have expired.")
+    # Redirected to login means session is invalid
+    if r.url.rstrip("/").endswith("/login"):
+        raise RuntimeError("Listings page redirected to login — session may have expired.")
     return r.text
 
 
