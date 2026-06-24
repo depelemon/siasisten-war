@@ -52,9 +52,9 @@ def send_new_positions(positions: list[Position], webhook_url: str, check_count:
     for batch_start in range(0, total, _EMBED_FIELD_LIMIT):
         batch = positions[batch_start : batch_start + _EMBED_FIELD_LIMIT]
         title = (
-            f"🍋 {total} lowongan baru dibuka!"
+            f"<:rossi:1518863461994725386> {total} lowongan baru dibuka, Endministrator!"
             if batch_start == 0
-            else f"🍋 Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
+            else f"<:rossi:1518863461994725386> Lowongan baru (lanjutan {batch_start + 1}–{batch_start + len(batch)})"
         )
         payload = {
             "content": "@everyone",
@@ -75,8 +75,8 @@ def send_no_changes(total_tracked: int, webhook_url: str, check_count: int = 0) 
     payload = {
         "embeds": [
             {
-                "title": "🍋 Tidak ada lowongan baru.",
-                "description": f"Tidak ada perubahan. {total_tracked} posisi sedang dipantau.",
+                "title": "<:rossi:1518863461994725386> Tidak ada lowongan baru, Endministrator!",
+                "description": f"{total_tracked} posisi tercatat.",
                 "color": 0x2ECC71,
                 "footer": {"text": f"siasisten.cs.ui.ac.id • Check #{check_count}"},
                 "timestamp": datetime.now(timezone.utc).isoformat(),
