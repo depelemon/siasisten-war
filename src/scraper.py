@@ -43,11 +43,13 @@ def login(username: str, password: str) -> requests.Session:
     r = s.get(f"{BASE_URL}/login/", timeout=15)
     r.raise_for_status()
 
+    # New React UI: token is in the csrftoken cookie, not an HTML hidden input.
+    # Fall back to HTML parsing for older layout.
     soup = BeautifulSoup(r.text, "lxml")
     token_input = soup.find("input", {"name": "csrfmiddlewaretoken"})
-    if not token_input:
-        raise RuntimeError("Could not find csrfmiddlewaretoken on login page.")
-    token = token_input["value"]
+    token = token_input["value"] if token_input else s.cookies.get("csrftoken", "")
+    if not token:
+        raise RuntimeError("Could not find CSRF token (neither in HTML nor in cookie).")
 
     r = s.post(
         f"{BASE_URL}/login/",
@@ -57,12 +59,15 @@ def login(username: str, password: str) -> requests.Session:
             "password": password,
             "next": "",
         },
-        headers={"Referer": f"{BASE_URL}/login/"},
+        headers={
+            "Referer": f"{BASE_URL}/login/",
+            "X-CSRFToken": token,
+        },
         allow_redirects=False,
         timeout=15,
     )
 
-    if r.status_code != 302 or r.headers.get("Location") != "/index/":
+    if r.status_code != 302:
         raise RuntimeError(
             f"Login failed (HTTP {r.status_code}). Check SIASISTEN_USERNAME / SIASISTEN_PASSWORD."
         )
