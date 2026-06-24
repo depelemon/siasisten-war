@@ -10,6 +10,7 @@ from src.scraper import BASE_URL, Position
 
 _EMBED_FIELD_LIMIT = 25
 _THUMBNAILS_DIR = Path(__file__).parent.parent / "thumbnails"
+_ROSSI_IMAGE = Path(__file__).parent.parent / "images" / "rossi.jpeg"
 
 
 def _pick_thumbnail() -> Path | None:
@@ -17,20 +18,42 @@ def _pick_thumbnail() -> Path | None:
     return random.choice(images) if images else None
 
 
-def _post(webhook_url: str, payload: dict) -> None:
+def _post(webhook_url: str, payload: dict, image: Path | None = None) -> None:
     thumb = _pick_thumbnail()
+    use_image = image is not None and image.exists()
+
     if thumb:
         for embed in payload.get("embeds", []):
             embed["thumbnail"] = {"url": f"attachment://{thumb.name}"}
-        with open(thumb, "rb") as f:
+    if use_image:
+        for embed in payload.get("embeds", []):
+            embed["image"] = {"url": f"attachment://{image.name}"}
+
+    if not thumb and not use_image:
+        r = requests.post(webhook_url, json=payload, timeout=10)
+    else:
+        opens = []
+        try:
+            files = {}
+            if thumb:
+                f = open(thumb, "rb")
+                opens.append(f)
+                files["files[0]"] = (thumb.name, f, "image/png")
+            if use_image:
+                img = open(image, "rb")
+                opens.append(img)
+                idx = len(files)
+                files[f"files[{idx}]"] = (image.name, img, "image/jpeg")
             r = requests.post(
                 webhook_url,
                 data={"payload_json": json.dumps(payload)},
-                files={"files[0]": (thumb.name, f, "image/png")},
+                files=files,
                 timeout=10,
             )
-    else:
-        r = requests.post(webhook_url, json=payload, timeout=10)
+        finally:
+            for fh in opens:
+                fh.close()
+
     r.raise_for_status()
 
 
@@ -68,7 +91,7 @@ def send_new_positions(positions: list[Position], webhook_url: str, check_count:
                 }
             ]
         }
-        _post(webhook_url, payload)
+        _post(webhook_url, payload, image=_ROSSI_IMAGE)
 
 
 def send_no_changes(total_tracked: int, webhook_url: str, check_count: int = 0) -> None:
