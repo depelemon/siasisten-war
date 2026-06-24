@@ -2,6 +2,7 @@
 .env
 *.har
 siasisten.html
+newsiasisten.html
 
 # Python
 __pycache__/

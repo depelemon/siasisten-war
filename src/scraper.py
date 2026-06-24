@@ -5,18 +5,15 @@ from dataclasses import dataclass, asdict
 
 BASE_URL = "https://siasisten.cs.ui.ac.id"
 
-# h4 IDs that delimit each term's table on the listings page
-TERM_HEADER_IDS = ["next-term-header", "short-term-header", "term-header"]
-
 
 @dataclass
 class Position:
     id: str            # lowongan ID string, or "fallback|term|course_key|dosen"
     term: str          # e.g. "Ganjil 2026/2027"
-    course: str        # e.g. "CSGE601021 - 01.00.12.01-2020 — Dasar-Dasar Pemrograman 2"
+    course: str        # e.g. "CSGE601021 - 01.00.12.01-2020 - Dasar-Dasar Pemrograman 2"
     dosen: str
-    status: str        # "Buka" | "Tutup"
-    can_apply: bool    # True when a "Daftar" link is present
+    status: str        # "Dibuka" | "Ditutup"
+    can_apply: bool    # True when a "Daftar" button is present
     slots: str
     applicants: str
     accepted: str
@@ -85,7 +82,6 @@ def _build_col_map(headers: list[str]) -> dict[str, int]:
     col = {}
     for i, h in enumerate(headers):
         h_low = h.lower()
-        # "Prodi Mata Kuliah" also contains "mata kuliah" — exclude it explicitly
         if "mata kuliah" in h_low and "prodi" not in h_low:
             col["course"] = i
         elif "dosen" in h_low:
@@ -98,24 +94,32 @@ def _build_col_map(headers: list[str]) -> dict[str, int]:
             col["applicants"] = i
         elif "jumlah lowongan" in h_low:
             col["slots"] = i
-        elif "daftar" in h_low:
+        elif "daftar" in h_low:  # "Daftar/Detail"
             col["link"] = i
     return col
 
 
 def _extract_link(td) -> tuple[str | None, str | None, bool]:
-    """Returns (lowongan_id, apply_url, can_apply)."""
-    a = td.find("a", href=True)
-    if not a:
+    """Returns (lowongan_id, apply_url, can_apply) from a button's data-testid."""
+    btn = td.find("button", attrs={"data-testid": True})
+    if not btn:
         return None, None, False
-    href = a["href"]
-    m = re.search(r"/daftarLowongan/(\d+)/", href)
+    testid = btn.get("data-testid", "")
+    m = re.search(r"btn-daftar-(\d+)", testid)
     if m:
-        return m.group(1), href, True
-    m = re.search(r"/detailLamaran/(\d+)/", href)
+        pos_id = m.group(1)
+        return pos_id, f"/lowongan/daftarLowongan/{pos_id}/", True
+    m = re.search(r"btn-detail-(\d+)", testid)
     if m:
-        return m.group(1), href, False
+        pos_id = m.group(1)
+        return pos_id, f"/lowongan/detailLamaran/{pos_id}/", False
     return None, None, False
+
+
+def _extract_term(h2_text: str) -> str:
+    """Extract term name from h2 like 'Semester Selanjutnya (Ganjil 2026/2027)'."""
+    m = re.search(r"\(([^)]+)\)", h2_text)
+    return m.group(1) if m else h2_text
 
 
 def _cell_text(cells: list, i: int) -> str:
@@ -133,12 +137,9 @@ def parse_listings(html: str) -> dict[str, Position]:
     soup = BeautifulSoup(html, "lxml")
     positions: dict[str, Position] = {}
 
-    for header_id in TERM_HEADER_IDS:
-        h4 = soup.find("h4", id=header_id)
-        if not h4:
-            continue
-        term_label = h4.get_text(strip=True)
-        table = h4.find_next_sibling("table")
+    for h2 in soup.find_all("h2"):
+        term_label = _extract_term(h2.get_text(strip=True))
+        table = h2.find_next("table")
         if not table:
             continue
 
@@ -146,11 +147,11 @@ def parse_listings(html: str) -> dict[str, Position]:
         if not rows:
             continue
 
-        headers = [th.get_text(strip=True) for th in rows[0].find_all("th")]
+        headers = [th.get_text(separator=" ", strip=True) for th in rows[0].find_all("th")]
         col = _build_col_map(headers)
 
         if "course" not in col or "status" not in col:
-            continue  # unrecognised table layout, skip rather than crash
+            continue
 
         for row in rows[1:]:
             cells = row.find_all("td")
@@ -169,8 +170,7 @@ def parse_listings(html: str) -> dict[str, Position]:
             )
 
             if pos_id is None:
-                # Stable fallback key for rows without a lowongan ID
-                course_key = course.split("—")[0].strip()[:40]
+                course_key = course.split("-")[0].strip()[:40]
                 pos_id = f"fallback|{term_label}|{course_key}|{dosen}"
 
             positions[pos_id] = Position(
