@@ -484,12 +484,12 @@
     "term": "Genap 2025/2026",
     "course": "CSIM602281 - 06.00.12.01-2020 - Manajemen Proyek Teknologi Informasi - S1 Reguler",
     "dosen": "ave.pinem, herik",
-    "status": "Dibuka",
-    "can_apply": true,
+    "status": "Ditutup",
+    "can_apply": false,
     "slots": "9",
     "applicants": "62",
     "accepted": "6",
-    "apply_url": "/lowongan/daftarLowongan/2403/"
+    "apply_url": "/lowongan/detailLamaran/2403/"
   },
   "2431": {
     "id": "2431",
