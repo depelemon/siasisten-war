@@ -10,7 +10,7 @@ from src.scraper import BASE_URL, Position
 
 _EMBED_FIELD_LIMIT = 25
 _THUMBNAILS_DIR = Path(__file__).parent.parent / "thumbnails"
-_ROSSI_IMAGE = Path(__file__).parent.parent / "images" / "rossi.jpeg"
+_ROSSI_IMAGE = Path(__file__).parent.parent / "images" / "rossi2.jpeg"
 
 
 def _pick_thumbnail() -> Path | None:
