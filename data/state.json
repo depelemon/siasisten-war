@@ -42,7 +42,7 @@
     "dosen": "adea",
     "status": "Dibuka",
     "can_apply": true,
-    "slots": "6",
+    "slots": "12",
     "applicants": "27",
     "accepted": "11",
     "apply_url": "/lowongan/daftarLowongan/2476/"
@@ -111,13 +111,13 @@
     "id": "2483",
     "term": "Pendek 2025/2026",
     "course": "Pengembangan Sistem Fasilkom — 17",
-    "dosen": "adea aruniyasmin",
-    "status": "Ditutup",
-    "can_apply": false,
-    "slots": "2",
+    "dosen": "adea aruniyasmin mayaretno",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "4",
     "applicants": "3",
     "accepted": "2",
-    "apply_url": "/lowongan/detailLamaran/2483/"
+    "apply_url": "/lowongan/daftarLowongan/2483/"
   },
   "2480": {
     "id": "2480",
@@ -259,7 +259,7 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "4",
-    "applicants": "83",
+    "applicants": "82",
     "accepted": "4",
     "apply_url": "/lowongan/detailLamaran/2433/"
   },
