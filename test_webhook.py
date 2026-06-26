@@ -12,7 +12,7 @@ from src.scraper import BASE_URL, Position
 load_dotenv()
 
 _THUMBNAILS_DIR = Path("thumbnails")
-_ROSSI_IMAGE = Path("images") / "rossi.jpeg"
+_ROSSI_IMAGE = Path("images") / "rossi2.jpeg"
 
 DUMMY_POSITION = Position(
     id="test-001",
