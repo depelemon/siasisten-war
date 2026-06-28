@@ -8,7 +8,7 @@
     "can_apply": false,
     "slots": "4",
     "applicants": "9",
-    "accepted": "0",
+    "accepted": "4",
     "apply_url": "/lowongan/detailLamaran/2486/"
   },
   "2487": {
@@ -44,7 +44,7 @@
     "can_apply": true,
     "slots": "12",
     "applicants": "28",
-    "accepted": "11",
+    "accepted": "12",
     "apply_url": "/lowongan/daftarLowongan/2476/"
   },
   "2478": {
@@ -116,7 +116,7 @@
     "can_apply": true,
     "slots": "4",
     "applicants": "4",
-    "accepted": "2",
+    "accepted": "3",
     "apply_url": "/lowongan/daftarLowongan/2483/"
   },
   "2480": {
