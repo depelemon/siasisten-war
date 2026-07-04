@@ -113,11 +113,11 @@
     "course": "Pengawas Ujian — 18",
     "dosen": "aruniyasmin ilma.am",
     "status": "Dibuka",
-    "can_apply": true,
+    "can_apply": false,
     "slots": "1",
-    "applicants": "1",
+    "applicants": "3",
     "accepted": "0",
-    "apply_url": "/lowongan/daftarLowongan/2488/"
+    "apply_url": "/lowongan/detailLamaran/2488/"
   },
   "2483": {
     "id": "2483",
