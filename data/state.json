@@ -107,6 +107,18 @@
     "accepted": "2",
     "apply_url": "/lowongan/detailLamaran/2481/"
   },
+  "2488": {
+    "id": "2488",
+    "term": "Pendek 2025/2026",
+    "course": "Pengawas Ujian — 18",
+    "dosen": "aruniyasmin ilma.am",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "1",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2488/"
+  },
   "2483": {
     "id": "2483",
     "term": "Pendek 2025/2026",
