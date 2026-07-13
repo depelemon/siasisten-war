@@ -1,6 +1,6 @@
 {
   "message_id": "1526238129026236449",
-  "check_count": 5242,
+  "check_count": 5243,
   "positions": [
     {
       "id": "2495",
@@ -13,6 +13,18 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2495/"
+    },
+    {
+      "id": "2496",
+      "term": "Ganjil 2026/2027",
+      "course": "Kalkulus 1 — CSGE601012 — • 01.00.12.01-2024 — • S1",
+      "dosen": "ikhsanul.habibie12 ilma.am okkyibrohim heru aruniyasmin",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "25",
+      "applicants": "1",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2496/"
     }
   ]
 }
