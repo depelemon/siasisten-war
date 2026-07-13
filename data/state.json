@@ -1,4 +1,28 @@
 {
+  "2489": {
+    "id": "2489",
+    "term": "Ganjil 2026/2027",
+    "course": "Aljabar Linier — CSGE602012 — • 01.00.12.01-2024 — • S1",
+    "dosen": "lia.sadita kasmj aruniyasmin lulu.ilmaknun12",
+    "status": "Dibuka",
+    "can_apply": false,
+    "slots": "9",
+    "applicants": "4",
+    "accepted": "0",
+    "apply_url": "/lowongan/detailLamaran/2489/"
+  },
+  "2490": {
+    "id": "2490",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengajaran Berbantuan Komputer — IKI40510 — • 01.00.12.01-2009 — • S1",
+    "dosen": "kasmj lintang.matahari01",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2490/"
+  },
   "2486": {
     "id": "2486",
     "term": "Ganjil 2026/2027",
@@ -115,7 +139,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "1",
-    "applicants": "7",
+    "applicants": "8",
     "accepted": "4",
     "apply_url": "/lowongan/detailLamaran/2488/"
   },
