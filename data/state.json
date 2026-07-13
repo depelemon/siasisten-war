@@ -7,9 +7,21 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "9",
-    "applicants": "4",
+    "applicants": "5",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2489/"
+  },
+  "2491": {
+    "id": "2491",
+    "term": "Ganjil 2026/2027",
+    "course": "Dasar-Dasar Pemrograman 1 — CSGE601020 — • 01.00.12.01-2024 — • S1",
+    "dosen": "alfan yohanes iisafriyanti fariz febrianrachmadi ichlasul.affan12 jessica.n ibad.rahadian12 lulu.ilmaknun12",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "32",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2491/"
   },
   "2490": {
     "id": "2490",
