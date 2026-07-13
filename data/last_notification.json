@@ -1,0 +1,138 @@
+{
+  "message_id": "1526234053995528255",
+  "check_count": 5238,
+  "positions": [
+    {
+      "id": "2489",
+      "term": "Ganjil 2026/2027",
+      "course": "Aljabar Linier — CSGE602012 — • 01.00.12.01-2024 — • S1",
+      "dosen": "lia.sadita kasmj aruniyasmin lulu.ilmaknun12",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "9",
+      "applicants": "16",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2489/"
+    },
+    {
+      "id": "2493",
+      "term": "Ganjil 2026/2027",
+      "course": "Pemasaran Media Digital — CSCE604180 — • 06.00.12.01-2024 — • S1",
+      "dosen": "hanafitriani",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "1",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2493/"
+    },
+    {
+      "id": "2494",
+      "term": "Ganjil 2026/2027",
+      "course": "Pemrograman Berbasis Platform — CSGE602022 — • 01.00.12.01-2024 — • S1",
+      "dosen": "dayaadianto iisafriyanti arawinda ichlasul.affan12 jessica.n ilma.ainur12",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "25",
+      "applicants": "12",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2494/"
+    },
+    {
+      "id": "2490",
+      "term": "Ganjil 2026/2027",
+      "course": "Pengajaran Berbantuan Komputer — IKI40510 — • 01.00.12.01-2009 — • S1",
+      "dosen": "kasmj lintang.matahari01",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2490/"
+    },
+    {
+      "id": "2492",
+      "term": "Ganjil 2026/2027",
+      "course": "Proyek Pengembangan Sistem Informasi — CSIM603229 — • 06.00.12.01-2024 — • S1",
+      "dosen": "nabila.clydea02 hanafitriani",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2492/"
+    },
+    {
+      "id": "2487",
+      "term": "Ganjil 2026/2027",
+      "course": "Struktur Linear — CSAM601012 — • 10.00.12.01-2026",
+      "dosen": "alfan",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "16",
+      "accepted": "1",
+      "apply_url": "/lowongan/daftarLowongan/2487/"
+    },
+    {
+      "id": "2476",
+      "term": "Pendek 2025/2026",
+      "course": "Dasar - Dasar Pemrograman 2 — CSGE601021 — • 01.00.12.01-2020",
+      "dosen": "adea",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "12",
+      "applicants": "29",
+      "accepted": "11",
+      "apply_url": "/lowongan/daftarLowongan/2476/"
+    },
+    {
+      "id": "2478",
+      "term": "Pendek 2025/2026",
+      "course": "Kalkulus 1 — CSGE601012 — • 06.00.12.01-2020 — • S1 Reguler",
+      "dosen": "andi.pujo ikhsanul.habibie12",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "1",
+      "applicants": "30",
+      "accepted": "9",
+      "apply_url": "/lowongan/daftarLowongan/2478/"
+    },
+    {
+      "id": "2482",
+      "term": "Pendek 2025/2026",
+      "course": "Kalkulus II — IKI10080 — • 01.00.12.01-2000",
+      "dosen": "heru",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "3",
+      "applicants": "11",
+      "accepted": "5",
+      "apply_url": "/lowongan/daftarLowongan/2482/"
+    },
+    {
+      "id": "2477",
+      "term": "Pendek 2025/2026",
+      "course": "Matematika Diskret 1 — CSGE601010 — • 06.00.12.01-2020 — • S1 Reguler",
+      "dosen": "rahmad.mahendra saptawijaya",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "1",
+      "applicants": "24",
+      "accepted": "2",
+      "apply_url": "/lowongan/daftarLowongan/2477/"
+    },
+    {
+      "id": "2483",
+      "term": "Pendek 2025/2026",
+      "course": "Pengembangan Sistem Fasilkom — 17",
+      "dosen": "mayaretno adea aruniyasmin ilma.ainur12",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "6",
+      "accepted": "5",
+      "apply_url": "/lowongan/daftarLowongan/2483/"
+    }
+  ]
+}
