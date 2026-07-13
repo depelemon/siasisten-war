@@ -5,11 +5,11 @@
     "course": "Aljabar Linier — CSGE602012 — • 01.00.12.01-2024 — • S1",
     "dosen": "lia.sadita kasmj aruniyasmin lulu.ilmaknun12",
     "status": "Dibuka",
-    "can_apply": false,
+    "can_apply": true,
     "slots": "9",
     "applicants": "5",
     "accepted": "0",
-    "apply_url": "/lowongan/detailLamaran/2489/"
+    "apply_url": "/lowongan/daftarLowongan/2489/"
   },
   "2491": {
     "id": "2491",
@@ -17,11 +17,11 @@
     "course": "Dasar-Dasar Pemrograman 1 — CSGE601020 — • 01.00.12.01-2024 — • S1",
     "dosen": "alfan yohanes iisafriyanti fariz febrianrachmadi ichlasul.affan12 jessica.n ibad.rahadian12 lulu.ilmaknun12",
     "status": "Dibuka",
-    "can_apply": true,
+    "can_apply": false,
     "slots": "32",
-    "applicants": "0",
+    "applicants": "4",
     "accepted": "0",
-    "apply_url": "/lowongan/daftarLowongan/2491/"
+    "apply_url": "/lowongan/detailLamaran/2491/"
   },
   "2490": {
     "id": "2490",
@@ -55,7 +55,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "15",
+    "applicants": "16",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2487/"
   },
