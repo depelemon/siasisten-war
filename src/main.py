@@ -8,7 +8,14 @@ except ImportError:
     pass
 
 from src.scraper import login, fetch_listings, parse_listings
-from src.state import load_state, save_state, load_counter, save_counter
+from src.state import (
+    load_state,
+    save_state,
+    load_counter,
+    save_counter,
+    load_last_notification,
+    save_last_notification,
+)
 from src.diff import find_new_openings
 from src.notify import send_new_positions, send_no_changes, send_error
 
@@ -62,7 +69,11 @@ def main() -> None:
         return
 
     # --- Notify first, then save (so a failed send retries next run) ---
-    send_new_positions(list(new_openings.values()), webhook_url, check_count)
+    last_notif = load_last_notification()
+    new_last_notif = send_new_positions(
+        list(new_openings.values()), webhook_url, check_count, last_notif
+    )
+    save_last_notification(new_last_notif)
     save_state(current)
     print(f"Notified about {len(new_openings)} new opening(s).")
 

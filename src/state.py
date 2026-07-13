@@ -4,6 +4,7 @@ from src.scraper import Position
 
 STATE_FILE = Path(__file__).parent.parent / "data" / "state.json"
 COUNTER_FILE = Path(__file__).parent.parent / "data" / "counter.json"
+LAST_NOTIF_FILE = Path(__file__).parent.parent / "data" / "last_notification.json"
 
 
 def load_state() -> dict[str, Position]:
@@ -47,3 +48,23 @@ def save_state(positions: dict[str, Position]) -> None:
             indent=2,
             ensure_ascii=False,
         )
+
+
+def load_last_notification() -> dict | None:
+    if not LAST_NOTIF_FILE.exists():
+        return None
+    try:
+        text = LAST_NOTIF_FILE.read_text(encoding="utf-8").strip()
+        return json.loads(text) if text else None
+    except (UnicodeDecodeError, json.JSONDecodeError):
+        return None
+
+
+def save_last_notification(data: dict | None) -> None:
+    LAST_NOTIF_FILE.parent.mkdir(exist_ok=True)
+    if data is None:
+        if LAST_NOTIF_FILE.exists():
+            LAST_NOTIF_FILE.unlink()
+        return
+    with open(LAST_NOTIF_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
