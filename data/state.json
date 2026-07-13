@@ -7,7 +7,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "9",
-    "applicants": "16",
+    "applicants": "17",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2489/"
   },
@@ -22,6 +22,18 @@
     "applicants": "41",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2491/"
+  },
+  "2495": {
+    "id": "2495",
+    "term": "Ganjil 2026/2027",
+    "course": "Kalkulus 1 — CSGE601012 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "aruniyasmin",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "3",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2495/"
   },
   "2493": {
     "id": "2493",
@@ -43,7 +55,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "13",
+    "applicants": "14",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2494/"
   },
