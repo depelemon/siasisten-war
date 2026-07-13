@@ -19,7 +19,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "32",
-    "applicants": "33",
+    "applicants": "36",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
@@ -34,6 +34,18 @@
     "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2493/"
+  },
+  "2494": {
+    "id": "2494",
+    "term": "Ganjil 2026/2027",
+    "course": "Pemrograman Berbasis Platform — CSGE602022 — • 01.00.12.01-2024 — • S1",
+    "dosen": "dayaadianto iisafriyanti arawinda ichlasul.affan12 jessica.n ilma.ainur12",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "25",
+    "applicants": "3",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2494/"
   },
   "2490": {
     "id": "2490",
