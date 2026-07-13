@@ -7,7 +7,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "9",
-    "applicants": "11",
+    "applicants": "12",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2489/"
   },
@@ -19,9 +19,21 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "32",
-    "applicants": "28",
+    "applicants": "31",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2491/"
+  },
+  "2493": {
+    "id": "2493",
+    "term": "Ganjil 2026/2027",
+    "course": "Pemasaran Media Digital — CSCE604180 — • 06.00.12.01-2024 — • S1",
+    "dosen": "hanafitriani",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2493/"
   },
   "2490": {
     "id": "2490",
