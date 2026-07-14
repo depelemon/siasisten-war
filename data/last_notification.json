@@ -1,6 +1,6 @@
 {
   "message_id": "1526421840405467189",
-  "check_count": 5386,
+  "check_count": 5387,
   "positions": [
     {
       "id": "2497",
@@ -13,6 +13,18 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2497/"
+    },
+    {
+      "id": "2498",
+      "term": "Ganjil 2026/2027",
+      "course": "Pemrograman Berbasis Platform — CSGE602022 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "nancenka",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2498/"
     }
   ]
 }
