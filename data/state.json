@@ -7,7 +7,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "9",
-    "applicants": "32",
+    "applicants": "33",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2489/"
   },
@@ -34,6 +34,18 @@
     "applicants": "61",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2491/"
+  },
+  "2499": {
+    "id": "2499",
+    "term": "Ganjil 2026/2027",
+    "course": "Forensik Digital — CSCE604156 — • 01.00.12.01-2024 — • S1",
+    "dosen": "amril.syalim",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "1",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2499/"
   },
   "2495": {
     "id": "2495",
@@ -91,7 +103,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "4",
+    "applicants": "5",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2498/"
   },
