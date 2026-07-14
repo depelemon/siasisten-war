@@ -7,7 +7,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "9",
-    "applicants": "33",
+    "applicants": "34",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2489/"
   },
@@ -19,7 +19,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "10",
-    "applicants": "5",
+    "applicants": "8",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2497/"
   },
@@ -31,7 +31,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "28",
-    "applicants": "61",
+    "applicants": "63",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
@@ -79,7 +79,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "4",
+    "applicants": "5",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2493/"
   },
@@ -91,7 +91,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "64",
+    "applicants": "65",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2494/"
   },
@@ -103,7 +103,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "5",
+    "applicants": "6",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2498/"
   },
@@ -142,6 +142,18 @@
     "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2492/"
+  },
+  "2500": {
+    "id": "2500",
+    "term": "Ganjil 2026/2027",
+    "course": "Sistem Operasi — CSCM602055 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "amril.syalim",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "1",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2500/"
   },
   "2487": {
     "id": "2487",

@@ -1,6 +1,6 @@
 {
   "message_id": "1526428155202633791",
-  "check_count": 5390,
+  "check_count": 5391,
   "positions": [
     {
       "id": "2499",
@@ -13,6 +13,18 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2499/"
+    },
+    {
+      "id": "2500",
+      "term": "Ganjil 2026/2027",
+      "course": "Sistem Operasi — CSCM602055 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "amril.syalim",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "1",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2500/"
     }
   ]
 }
