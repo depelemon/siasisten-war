@@ -20,7 +20,7 @@
     "can_apply": true,
     "slots": "12",
     "applicants": "32",
-    "accepted": "0",
+    "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2497/"
   },
   "2491": {
@@ -32,7 +32,7 @@
     "can_apply": false,
     "slots": "28",
     "applicants": "84",
-    "accepted": "4",
+    "accepted": "6",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
   "2499": {
@@ -130,6 +130,18 @@
     "applicants": "14",
     "accepted": "5",
     "apply_url": "/lowongan/detailLamaran/2486/"
+  },
+  "2501": {
+    "id": "2501",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengantar Sistem Operasi — CSIM602155 — • 06.00.12.01-2024 — • S1",
+    "dosen": "herik",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "11",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2501/"
   },
   "2492": {
     "id": "2492",
