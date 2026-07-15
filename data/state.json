@@ -131,6 +131,18 @@
     "accepted": "5",
     "apply_url": "/lowongan/detailLamaran/2486/"
   },
+  "2503": {
+    "id": "2503",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengantar Sistem Digital — CSCM601150 — • 01.00.12.01-2024 — • S1",
+    "dosen": "arawinda santo efi",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "14",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2503/"
+  },
   "2501": {
     "id": "2501",
     "term": "Ganjil 2026/2027",

@@ -1,18 +1,18 @@
 {
-  "message_id": "1526766606221316220",
-  "check_count": 5658,
+  "message_id": "1526820762919370931",
+  "check_count": 5701,
   "positions": [
     {
-      "id": "2502",
+      "id": "2503",
       "term": "Ganjil 2026/2027",
-      "course": "Topik Khusus Ilmu Komputer — CSCE604029 — • 01.00.12.01-2024 — • S1",
-      "dosen": "ikhsanul.habibie12",
+      "course": "Pengantar Sistem Digital — CSCM601150 — • 01.00.12.01-2024 — • S1",
+      "dosen": "arawinda santo efi",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "2",
+      "slots": "14",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2502/"
+      "apply_url": "/lowongan/daftarLowongan/2503/"
     }
   ]
 }
