@@ -95,6 +95,42 @@
     "accepted": "9",
     "apply_url": "/lowongan/daftarLowongan/2496/"
   },
+  "2508": {
+    "id": "2508",
+    "term": "Ganjil 2026/2027",
+    "course": "Kecerdasan Artifisial &  Sains Data Dasar — CSGE603130 — • 01.00.12.01-2024 — • S1",
+    "dosen": "tusty.nadia12 aminah vektor.dewanto12 adila laksmita",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "9",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2508/"
+  },
+  "2509": {
+    "id": "2509",
+    "term": "Ganjil 2026/2027",
+    "course": "Komputer & Masyarakat — CSGE614093 — • 01.00.12.01-2024 — • S1",
+    "dosen": "wnugroho yugo",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2509/"
+  },
+  "2510": {
+    "id": "2510",
+    "term": "Ganjil 2026/2027",
+    "course": "Matematika Diskret 1 — CSGE601010 — • 01.00.12.01-2024 — • S1",
+    "dosen": "arlisa saptawijaya tusty.nadia12 dina ika.alfina",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "25",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2510/"
+  },
   "2493": {
     "id": "2493",
     "term": "Ganjil 2026/2027",
