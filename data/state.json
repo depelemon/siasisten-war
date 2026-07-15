@@ -151,9 +151,21 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "14",
-    "applicants": "11",
+    "applicants": "12",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2503/"
+  },
+  "2506": {
+    "id": "2506",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengantar Sistem Digital — CSCM601150 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "efi",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "5",
+    "applicants": "1",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2506/"
   },
   "2501": {
     "id": "2501",
