@@ -23,6 +23,18 @@
     "accepted": "3",
     "apply_url": "/lowongan/daftarLowongan/2497/"
   },
+  "2504": {
+    "id": "2504",
+    "term": "Ganjil 2026/2027",
+    "course": "Dasar-Dasar Arsitektur Komputer — CSIM601251 — • 06.00.12.01-2024 — • S1",
+    "dosen": "santo",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2504/"
+  },
   "2491": {
     "id": "2491",
     "term": "Ganjil 2026/2027",
@@ -31,7 +43,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "28",
-    "applicants": "99",
+    "applicants": "100",
     "accepted": "14",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
@@ -67,7 +79,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "71",
+    "applicants": "72",
     "accepted": "9",
     "apply_url": "/lowongan/daftarLowongan/2496/"
   },
@@ -137,11 +149,11 @@
     "course": "Pengantar Sistem Digital — CSCM601150 — • 01.00.12.01-2024 — • S1",
     "dosen": "arawinda santo efi",
     "status": "Dibuka",
-    "can_apply": true,
+    "can_apply": false,
     "slots": "14",
-    "applicants": "1",
+    "applicants": "5",
     "accepted": "0",
-    "apply_url": "/lowongan/daftarLowongan/2503/"
+    "apply_url": "/lowongan/detailLamaran/2503/"
   },
   "2501": {
     "id": "2501",
