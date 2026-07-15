@@ -43,7 +43,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "28",
-    "applicants": "103",
+    "applicants": "102",
     "accepted": "14",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
@@ -103,7 +103,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "9",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2508/"
   },
@@ -119,6 +119,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2509/"
   },
+  "2511": {
+    "id": "2511",
+    "term": "Ganjil 2026/2027",
+    "course": "Matematika Diskret  2 — CSGE601011 — • 01.00.12.01-2024 — • S1",
+    "dosen": "arlisa",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2511/"
+  },
   "2510": {
     "id": "2510",
     "term": "Ganjil 2026/2027",
@@ -127,7 +139,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "0",
+    "applicants": "4",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2510/"
   },

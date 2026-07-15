@@ -1,6 +1,6 @@
 {
   "message_id": "1526878652954972244",
-  "check_count": 5748,
+  "check_count": 5749,
   "positions": [
     {
       "id": "2507",
@@ -49,6 +49,18 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2510/"
+    },
+    {
+      "id": "2511",
+      "term": "Ganjil 2026/2027",
+      "course": "Matematika Diskret  2 — CSGE601011 — • 01.00.12.01-2024 — • S1",
+      "dosen": "arlisa",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2511/"
     }
   ]
 }
