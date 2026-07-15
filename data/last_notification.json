@@ -1,18 +1,18 @@
 {
-  "message_id": "1526576645949886588",
-  "check_count": 5507,
+  "message_id": "1526766606221316220",
+  "check_count": 5658,
   "positions": [
     {
-      "id": "2501",
+      "id": "2502",
       "term": "Ganjil 2026/2027",
-      "course": "Pengantar Sistem Operasi — CSIM602155 — • 06.00.12.01-2024 — • S1",
-      "dosen": "herik",
+      "course": "Topik Khusus Ilmu Komputer — CSCE604029 — • 01.00.12.01-2024 — • S1",
+      "dosen": "ikhsanul.habibie12",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "11",
+      "slots": "2",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2501/"
+      "apply_url": "/lowongan/daftarLowongan/2502/"
     }
   ]
 }
