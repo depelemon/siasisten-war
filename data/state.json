@@ -43,7 +43,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "28",
-    "applicants": "101",
+    "applicants": "102",
     "accepted": "14",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
@@ -55,7 +55,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "2",
+    "applicants": "4",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2507/"
   },
@@ -91,7 +91,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "74",
+    "applicants": "76",
     "accepted": "9",
     "apply_url": "/lowongan/daftarLowongan/2496/"
   },
@@ -103,7 +103,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "9",
-    "applicants": "6",
+    "applicants": "8",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2508/"
   },
@@ -115,7 +115,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2509/"
   },
@@ -127,7 +127,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "2",
+    "applicants": "5",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2511/"
   },
@@ -139,7 +139,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "15",
+    "applicants": "19",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2510/"
   },
@@ -163,7 +163,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "87",
+    "applicants": "88",
     "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2494/"
   },
@@ -175,7 +175,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "18",
+    "applicants": "19",
     "accepted": "4",
     "apply_url": "/lowongan/daftarLowongan/2498/"
   },
