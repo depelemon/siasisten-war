@@ -23,6 +23,18 @@
     "accepted": "3",
     "apply_url": "/lowongan/daftarLowongan/2497/"
   },
+  "2512": {
+    "id": "2512",
+    "term": "Ganjil 2026/2027",
+    "course": "Computer Vision — CSCE604133 — • 01.00.12.01-2024 — • S1",
+    "dosen": "febrianrachmadi laksmita",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "8",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2512/"
+  },
   "2504": {
     "id": "2504",
     "term": "Ganjil 2026/2027",
@@ -139,7 +151,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "48",
+    "applicants": "50",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2510/"
   },
