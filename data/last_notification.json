@@ -1,18 +1,18 @@
 {
-  "message_id": "1526956648801894596",
-  "check_count": 5809,
+  "message_id": "1527239715261124734",
+  "check_count": 6034,
   "positions": [
     {
-      "id": "2512",
+      "id": "2514",
       "term": "Ganjil 2026/2027",
-      "course": "Computer Vision — CSCE604133 — • 01.00.12.01-2024 — • S1",
-      "dosen": "febrianrachmadi laksmita",
+      "course": "Statistika dan Probabilitas — CSCM602013 — • 01.00.12.01-2024 — • S1",
+      "dosen": "vektor.dewanto12 rahmad.mahendra febrianrachmadi",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "8",
+      "slots": "9",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2512/"
+      "apply_url": "/lowongan/daftarLowongan/2514/"
     }
   ]
 }

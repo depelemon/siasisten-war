@@ -271,9 +271,21 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "1",
-    "applicants": "4",
+    "applicants": "5",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2500/"
+  },
+  "2514": {
+    "id": "2514",
+    "term": "Ganjil 2026/2027",
+    "course": "Statistika dan Probabilitas — CSCM602013 — • 01.00.12.01-2024 — • S1",
+    "dosen": "vektor.dewanto12 rahmad.mahendra febrianrachmadi",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "9",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2514/"
   },
   "2487": {
     "id": "2487",
