@@ -1,18 +1,30 @@
 {
-  "message_id": "1527243550847139881",
-  "check_count": 6037,
+  "message_id": "1527324093123399685",
+  "check_count": 6101,
   "positions": [
     {
-      "id": "2515",
+      "id": "2518",
       "term": "Ganjil 2026/2027",
-      "course": "Analisis Numerik — CSCM603117 — • 02.00.12.01-2024 — • S1 Kls Internasional",
-      "dosen": "meganingrum okkyibrohim",
+      "course": "Pengelolaan Data Besar — CSIE604273 — • 06.00.12.01-2024 — • S1",
+      "dosen": "aprinaldi12 wibowo",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "10",
+      "slots": "2",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2515/"
+      "apply_url": "/lowongan/daftarLowongan/2518/"
+    },
+    {
+      "id": "2517",
+      "term": "Ganjil 2026/2027",
+      "course": "Struktur Data & Algoritma — CSGE602040 — • 06.00.12.01-2024 — • S1",
+      "dosen": "nilam.f aprinaldi12 setiawan lintang.matahari01",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "20",
+      "applicants": "6",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2517/"
     }
   ]
 }

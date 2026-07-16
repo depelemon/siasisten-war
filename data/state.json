@@ -263,6 +263,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2501/"
   },
+  "2518": {
+    "id": "2518",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengelolaan Data Besar — CSIE604273 — • 06.00.12.01-2024 — • S1",
+    "dosen": "aprinaldi12 wibowo",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2518/"
+  },
   "2492": {
     "id": "2492",
     "term": "Ganjil 2026/2027",
@@ -298,6 +310,18 @@
     "applicants": "12",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2514/"
+  },
+  "2517": {
+    "id": "2517",
+    "term": "Ganjil 2026/2027",
+    "course": "Struktur Data & Algoritma — CSGE602040 — • 06.00.12.01-2024 — • S1",
+    "dosen": "nilam.f aprinaldi12 setiawan lintang.matahari01",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "20",
+    "applicants": "6",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2517/"
   },
   "2487": {
     "id": "2487",
