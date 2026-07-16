@@ -112,12 +112,12 @@
     "term": "Ganjil 2026/2027",
     "course": "Kalkulus 1 — CSGE601012 — • 01.00.12.01-2024 — • S1",
     "dosen": "ikhsanul.habibie12 ilma.am okkyibrohim heru aruniyasmin",
-    "status": "Dibuka",
-    "can_apply": true,
+    "status": "Ditutup",
+    "can_apply": false,
     "slots": "25",
     "applicants": "81",
     "accepted": "9",
-    "apply_url": "/lowongan/daftarLowongan/2496/"
+    "apply_url": "/lowongan/detailLamaran/2496/"
   },
   "2508": {
     "id": "2508",
@@ -151,7 +151,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "33",
+    "applicants": "34",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2511/"
   },
@@ -163,7 +163,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "74",
+    "applicants": "75",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2510/"
   },
