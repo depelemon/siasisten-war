@@ -1,18 +1,18 @@
 {
-  "message_id": "1527239715261124734",
-  "check_count": 6034,
+  "message_id": "1527243550847139881",
+  "check_count": 6037,
   "positions": [
     {
-      "id": "2514",
+      "id": "2515",
       "term": "Ganjil 2026/2027",
-      "course": "Statistika dan Probabilitas — CSCM602013 — • 01.00.12.01-2024 — • S1",
-      "dosen": "vektor.dewanto12 rahmad.mahendra febrianrachmadi",
+      "course": "Analisis Numerik — CSCM603117 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "meganingrum okkyibrohim",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "9",
+      "slots": "10",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2514/"
+      "apply_url": "/lowongan/daftarLowongan/2515/"
     }
   ]
 }
