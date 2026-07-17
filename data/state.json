@@ -14,7 +14,7 @@
   "2515": {
     "id": "2515",
     "term": "Ganjil 2026/2027",
-    "course": "Analisis Numerik — CSCM603117 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "course": "Analisis Numerik — CSCM603117 — • 01.00.12.01-2024 — • S1",
     "dosen": "meganingrum okkyibrohim",
     "status": "Dibuka",
     "can_apply": true,
@@ -32,7 +32,7 @@
     "can_apply": true,
     "slots": "12",
     "applicants": "57",
-    "accepted": "12",
+    "accepted": "13",
     "apply_url": "/lowongan/daftarLowongan/2497/"
   },
   "2512": {
@@ -68,7 +68,7 @@
     "can_apply": false,
     "slots": "28",
     "applicants": "117",
-    "accepted": "23",
+    "accepted": "24",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
   "2507": {
@@ -79,7 +79,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "19",
+    "applicants": "20",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2507/"
   },
@@ -163,7 +163,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "38",
+    "applicants": "39",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2511/"
   },
@@ -260,7 +260,7 @@
     "can_apply": false,
     "slots": "14",
     "applicants": "30",
-    "accepted": "9",
+    "accepted": "10",
     "apply_url": "/lowongan/detailLamaran/2503/"
   },
   "2506": {
@@ -296,7 +296,7 @@
     "can_apply": true,
     "slots": "2",
     "applicants": "3",
-    "accepted": "0",
+    "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2518/"
   },
   "2492": {
