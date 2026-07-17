@@ -1,6 +1,6 @@
 {
   "message_id": "1527624760908058751",
-  "check_count": 6342,
+  "check_count": 6343,
   "positions": [
     {
       "id": "2530",
@@ -217,6 +217,66 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2547/"
+    },
+    {
+      "id": "2552",
+      "term": "Ganjil 2026/2027",
+      "course": "Basis Data — CSGE602070 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "evi.y imairi",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2552/"
+    },
+    {
+      "id": "2548",
+      "term": "Ganjil 2026/2027",
+      "course": "Pembangunan TIK untuk Negara Berkembang — CSIE604279 — • 06.00.12.01-2024 — • S1",
+      "dosen": "bettyp nandhita.zefania12",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2548/"
+    },
+    {
+      "id": "2549",
+      "term": "Ganjil 2026/2027",
+      "course": "Pengelolaan Produk Digital — CSCE604278 — • 06.00.12.01-2024 — • S1",
+      "dosen": "ave.pinem p.indahati",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2549/"
+    },
+    {
+      "id": "2550",
+      "term": "Ganjil 2026/2027",
+      "course": "Sistem Informasi Sumber Daya Manusia — CSIE604285 — • 06.00.12.01-2024 — • S1",
+      "dosen": "annisamonicha kamila.alifia12",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2550/"
+    },
+    {
+      "id": "2551",
+      "term": "Ganjil 2026/2027",
+      "course": "Teori Bahasa & Automata — CSCM602241 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "setiawan",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2551/"
     }
   ]
 }

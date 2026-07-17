@@ -19,7 +19,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "10",
-    "applicants": "12",
+    "applicants": "13",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2515/"
   },
@@ -43,9 +43,21 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "12",
-    "applicants": "56",
+    "applicants": "55",
     "accepted": "13",
     "apply_url": "/lowongan/daftarLowongan/2497/"
+  },
+  "2552": {
+    "id": "2552",
+    "term": "Ganjil 2026/2027",
+    "course": "Basis Data — CSGE602070 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "evi.y imairi",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2552/"
   },
   "2542": {
     "id": "2542",
@@ -55,7 +67,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "1",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2542/"
   },
@@ -79,7 +91,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "6",
+    "applicants": "7",
     "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2504/"
   },
@@ -127,7 +139,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "6",
-    "applicants": "1",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2524/"
   },
@@ -139,7 +151,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2544/"
   },
@@ -211,7 +223,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "4",
+    "applicants": "5",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2526/"
   },
@@ -259,7 +271,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2531/"
   },
@@ -319,7 +331,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "38",
+    "applicants": "39",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2511/"
   },
@@ -331,7 +343,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "86",
+    "applicants": "87",
     "accepted": "25",
     "apply_url": "/lowongan/daftarLowongan/2510/"
   },
@@ -343,7 +355,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "3",
+    "applicants": "4",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2521/"
   },
@@ -371,6 +383,18 @@
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2493/"
   },
+  "2548": {
+    "id": "2548",
+    "term": "Ganjil 2026/2027",
+    "course": "Pembangunan TIK untuk Negara Berkembang — CSIE604279 — • 06.00.12.01-2024 — • S1",
+    "dosen": "bettyp nandhita.zefania12",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "4",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2548/"
+  },
   "2494": {
     "id": "2494",
     "term": "Ganjil 2026/2027",
@@ -379,7 +403,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "26",
-    "applicants": "102",
+    "applicants": "103",
     "accepted": "22",
     "apply_url": "/lowongan/daftarLowongan/2494/"
   },
@@ -391,7 +415,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "23",
+    "applicants": "24",
     "accepted": "4",
     "apply_url": "/lowongan/daftarLowongan/2498/"
   },
@@ -427,7 +451,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2534/"
   },
@@ -487,7 +511,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "11",
-    "applicants": "16",
+    "applicants": "17",
     "accepted": "3",
     "apply_url": "/lowongan/daftarLowongan/2501/"
   },
@@ -503,6 +527,18 @@
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2518/"
   },
+  "2549": {
+    "id": "2549",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengelolaan Produk Digital — CSCE604278 — • 06.00.12.01-2024 — • S1",
+    "dosen": "ave.pinem p.indahati",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "4",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2549/"
+  },
   "2535": {
     "id": "2535",
     "term": "Ganjil 2026/2027",
@@ -511,7 +547,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2535/"
   },
@@ -547,7 +583,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "11",
+    "applicants": "10",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2492/"
   },
@@ -571,7 +607,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "10",
-    "applicants": "1",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2529/"
   },
@@ -586,6 +622,18 @@
     "applicants": "0",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2538/"
+  },
+  "2550": {
+    "id": "2550",
+    "term": "Ganjil 2026/2027",
+    "course": "Sistem Informasi Sumber Daya Manusia — CSIE604285 — • 06.00.12.01-2024 — • S1",
+    "dosen": "annisamonicha kamila.alifia12",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "4",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2550/"
   },
   "2500": {
     "id": "2500",
@@ -670,6 +718,18 @@
     "applicants": "0",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2540/"
+  },
+  "2551": {
+    "id": "2551",
+    "term": "Ganjil 2026/2027",
+    "course": "Teori Bahasa & Automata — CSCM602241 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "setiawan",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2551/"
   },
   "2502": {
     "id": "2502",
