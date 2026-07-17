@@ -1,30 +1,18 @@
 {
-  "message_id": "1527324093123399685",
-  "check_count": 6101,
+  "message_id": "1527482616226254951",
+  "check_count": 6226,
   "positions": [
     {
-      "id": "2518",
+      "id": "2506",
       "term": "Ganjil 2026/2027",
-      "course": "Pengelolaan Data Besar — CSIE604273 — • 06.00.12.01-2024 — • S1",
-      "dosen": "aprinaldi12 wibowo",
+      "course": "Pengantar Sistem Digital — CSCM601150 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "efi",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "2",
-      "applicants": "0",
+      "slots": "5",
+      "applicants": "8",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2518/"
-    },
-    {
-      "id": "2517",
-      "term": "Ganjil 2026/2027",
-      "course": "Struktur Data & Algoritma — CSGE602040 — • 06.00.12.01-2024 — • S1",
-      "dosen": "nilam.f aprinaldi12 setiawan lintang.matahari01",
-      "status": "Dibuka",
-      "can_apply": true,
-      "slots": "20",
-      "applicants": "6",
-      "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2517/"
+      "apply_url": "/lowongan/daftarLowongan/2506/"
     }
   ]
 }
