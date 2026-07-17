@@ -191,6 +191,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2522/"
   },
+  "2531": {
+    "id": "2531",
+    "term": "Ganjil 2026/2027",
+    "course": "Komputasi Awan — CSCE604172 — • 01.00.12.01-2024 — • S1",
+    "dosen": "rizal.fa",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2531/"
+  },
   "2509": {
     "id": "2509",
     "term": "Ganjil 2026/2027",
@@ -299,6 +311,42 @@
     "accepted": "4",
     "apply_url": "/lowongan/daftarLowongan/2498/"
   },
+  "2532": {
+    "id": "2532",
+    "term": "Ganjil 2026/2027",
+    "course": "Pemrograman Fungsional — CSCE604123 — • 01.00.12.01-2024 — • S1",
+    "dosen": "adea",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "1",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2532/"
+  },
+  "2533": {
+    "id": "2533",
+    "term": "Ganjil 2026/2027",
+    "course": "Pemrograman Kompetitif — CSCE604226 — • 01.00.12.01-2024 — • S1",
+    "dosen": "denny ammar.fathin12",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2533/"
+  },
+  "2534": {
+    "id": "2534",
+    "term": "Ganjil 2026/2027",
+    "course": "Pemrosesan Bahasa Lisan — CSCE604032 — • 01.00.12.01-2024 — • S1",
+    "dosen": "kurniawati.azizah",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2534/"
+  },
   "2490": {
     "id": "2490",
     "term": "Ganjil 2026/2027",
@@ -370,6 +418,18 @@
     "applicants": "3",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2518/"
+  },
+  "2535": {
+    "id": "2535",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengolahan Bahasa Manusia — CSCE604031 — • 01.00.12.01-2024 — • S1",
+    "dosen": "rahmad.mahendra",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2535/"
   },
   "2492": {
     "id": "2492",
