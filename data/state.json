@@ -31,7 +31,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "12",
-    "applicants": "57",
+    "applicants": "56",
     "accepted": "13",
     "apply_url": "/lowongan/daftarLowongan/2497/"
   },
@@ -139,7 +139,7 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "25",
-    "applicants": "75",
+    "applicants": "73",
     "accepted": "25",
     "apply_url": "/lowongan/detailLamaran/2496/"
   },
@@ -211,7 +211,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "40",
+    "applicants": "39",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2511/"
   },
@@ -283,7 +283,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "24",
+    "applicants": "23",
     "accepted": "4",
     "apply_url": "/lowongan/daftarLowongan/2498/"
   },
@@ -383,17 +383,17 @@
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2519/"
   },
-  "2527": {
-    "id": "2527",
+  "2529": {
+    "id": "2529",
     "term": "Ganjil 2026/2027",
     "course": "Rekayasa Perangkat Lunak — CSCM603125 — • 01.00.12.01-2024 — • S1",
     "dosen": "iis mayaretno maya.retno",
     "status": "Dibuka",
     "can_apply": true,
-    "slots": "6",
+    "slots": "10",
     "applicants": "0",
     "accepted": "0",
-    "apply_url": "/lowongan/daftarLowongan/2527/"
+    "apply_url": "/lowongan/daftarLowongan/2529/"
   },
   "2500": {
     "id": "2500",

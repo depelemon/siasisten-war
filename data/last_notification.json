@@ -1,6 +1,6 @@
 {
   "message_id": "1527614681382912055",
-  "check_count": 6332,
+  "check_count": 6333,
   "positions": [
     {
       "id": "2522",
@@ -85,6 +85,18 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2528/"
+    },
+    {
+      "id": "2529",
+      "term": "Ganjil 2026/2027",
+      "course": "Rekayasa Perangkat Lunak — CSCM603125 — • 01.00.12.01-2024 — • S1",
+      "dosen": "iis mayaretno maya.retno",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "10",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2529/"
     }
   ]
 }
