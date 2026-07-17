@@ -1,4 +1,16 @@
 {
+  "2554": {
+    "id": "2554",
+    "term": "Ganjil 2026/2027",
+    "course": "Aljabar Linier — CSGE602012 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "dina",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2554/"
+  },
   "2489": {
     "id": "2489",
     "term": "Ganjil 2026/2027",
@@ -7,9 +19,21 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "9",
-    "applicants": "39",
+    "applicants": "38",
     "accepted": "9",
     "apply_url": "/lowongan/detailLamaran/2489/"
+  },
+  "2555": {
+    "id": "2555",
+    "term": "Ganjil 2026/2027",
+    "course": "Analisis Numerik — CSCM603117 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "chan",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2555/"
   },
   "2515": {
     "id": "2515",
@@ -20,7 +44,7 @@
     "can_apply": true,
     "slots": "10",
     "applicants": "13",
-    "accepted": "0",
+    "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2515/"
   },
   "2541": {
@@ -91,7 +115,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "7",
+    "applicants": "6",
     "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2504/"
   },
@@ -118,6 +142,18 @@
     "applicants": "116",
     "accepted": "23",
     "apply_url": "/lowongan/detailLamaran/2491/"
+  },
+  "2556": {
+    "id": "2556",
+    "term": "Ganjil 2026/2027",
+    "course": "Dasar-Dasar Pemrograman 1 — CSGE601020 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "yohanes",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2556/"
   },
   "2507": {
     "id": "2507",
@@ -151,7 +187,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "1",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2544/"
   },
@@ -331,7 +367,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "39",
+    "applicants": "38",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2511/"
   },
@@ -343,7 +379,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "87",
+    "applicants": "86",
     "accepted": "25",
     "apply_url": "/lowongan/daftarLowongan/2510/"
   },
@@ -391,7 +427,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "0",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2548/"
   },
@@ -535,7 +571,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2549/"
   },
@@ -596,7 +632,7 @@
     "can_apply": true,
     "slots": "6",
     "applicants": "3",
-    "accepted": "1",
+    "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2519/"
   },
   "2529": {
@@ -631,9 +667,21 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2550/"
+  },
+  "2553": {
+    "id": "2553",
+    "term": "Ganjil 2026/2027",
+    "course": "Sistem Interaksi — CSGE602024 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "lia.sadita",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "1",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2553/"
   },
   "2500": {
     "id": "2500",
@@ -703,7 +751,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "18",
+    "applicants": "17",
     "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2487/"
   },
