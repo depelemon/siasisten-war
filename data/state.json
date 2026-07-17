@@ -107,6 +107,18 @@
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2499/"
   },
+  "2530": {
+    "id": "2530",
+    "term": "Ganjil 2026/2027",
+    "course": "Graf Pengetahuan — CSCE604131 — • 01.00.12.01-2024 — • S1",
+    "dosen": "fariz",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2530/"
+  },
   "2525": {
     "id": "2525",
     "term": "Ganjil 2026/2027",
@@ -211,7 +223,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "39",
+    "applicants": "38",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2511/"
   },
