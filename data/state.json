@@ -7,7 +7,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "1",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2554/"
   },
@@ -19,9 +19,21 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "9",
-    "applicants": "38",
+    "applicants": "37",
     "accepted": "9",
     "apply_url": "/lowongan/detailLamaran/2489/"
+  },
+  "2562": {
+    "id": "2562",
+    "term": "Ganjil 2026/2027",
+    "course": "Analisis dan Perancangan Sistem Informasi — CSIM603183 — • 06.00.12.01-2024 — • S1",
+    "dosen": "nabila.clydea02 p.indahati widiaresti",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "6",
+    "applicants": "1",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2562/"
   },
   "2555": {
     "id": "2555",
@@ -58,6 +70,30 @@
     "applicants": "0",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2541/"
+  },
+  "2563": {
+    "id": "2563",
+    "term": "Ganjil 2026/2027",
+    "course": "Arsitektur & Pemrograman Aplikasi Perush. — CSIM603026 — • 06.00.12.01-2024 — • S1",
+    "dosen": "mishbah satrio.baskoro putu.edy",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "6",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2563/"
+  },
+  "2561": {
+    "id": "2561",
+    "term": "Ganjil 2026/2027",
+    "course": "Asisten MIK/DIK — 22",
+    "dosen": "indra",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2561/"
   },
   "2497": {
     "id": "2497",
@@ -218,7 +254,7 @@
   "2525": {
     "id": "2525",
     "term": "Ganjil 2026/2027",
-    "course": "Jaringan Komputer Lanjut — CSC6801582 — • 03.00.12.01-2012 — • S2",
+    "course": "Jaringan Komputer — CSCM603154 — • 01.00.12.01-2024 — • S1",
     "dosen": "ari.w made.harta rizal.fa",
     "status": "Dibuka",
     "can_apply": true,
@@ -247,7 +283,7 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "25",
-    "applicants": "72",
+    "applicants": "71",
     "accepted": "25",
     "apply_url": "/lowongan/detailLamaran/2496/"
   },
@@ -271,7 +307,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "0",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2560/"
   },
@@ -283,7 +319,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "9",
-    "applicants": "25",
+    "applicants": "26",
     "accepted": "3",
     "apply_url": "/lowongan/daftarLowongan/2508/"
   },
@@ -559,7 +595,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "5",
-    "applicants": "8",
+    "applicants": "9",
     "accepted": "4",
     "apply_url": "/lowongan/daftarLowongan/2506/"
   },
@@ -715,7 +751,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "3",
+    "applicants": "5",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2553/"
   },
@@ -799,7 +835,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "17",
+    "applicants": "16",
     "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2487/"
   },

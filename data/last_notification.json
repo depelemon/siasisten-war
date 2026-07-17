@@ -1,6 +1,6 @@
 {
   "message_id": "1527633573245489213",
-  "check_count": 6346,
+  "check_count": 6347,
   "positions": [
     {
       "id": "2560",
@@ -49,6 +49,42 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2559/"
+    },
+    {
+      "id": "2562",
+      "term": "Ganjil 2026/2027",
+      "course": "Analisis dan Perancangan Sistem Informasi — CSIM603183 — • 06.00.12.01-2024 — • S1",
+      "dosen": "nabila.clydea02 p.indahati widiaresti",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "6",
+      "applicants": "1",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2562/"
+    },
+    {
+      "id": "2563",
+      "term": "Ganjil 2026/2027",
+      "course": "Arsitektur & Pemrograman Aplikasi Perush. — CSIM603026 — • 06.00.12.01-2024 — • S1",
+      "dosen": "mishbah satrio.baskoro putu.edy",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "6",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2563/"
+    },
+    {
+      "id": "2561",
+      "term": "Ganjil 2026/2027",
+      "course": "Asisten MIK/DIK — 22",
+      "dosen": "indra",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2561/"
     }
   ]
 }
