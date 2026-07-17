@@ -83,6 +83,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2507/"
   },
+  "2524": {
+    "id": "2524",
+    "term": "Ganjil 2026/2027",
+    "course": "Desain & Analisis Algoritma — CSCM603142 — • 01.00.12.01-2024 — • S1",
+    "dosen": "ammar.fathin12 yugo",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "6",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2524/"
+  },
   "2499": {
     "id": "2499",
     "term": "Ganjil 2026/2027",
@@ -94,6 +106,18 @@
     "applicants": "2",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2499/"
+  },
+  "2525": {
+    "id": "2525",
+    "term": "Ganjil 2026/2027",
+    "course": "Jaringan Komputer Lanjut — CSC6801582 — • 03.00.12.01-2012 — • S2",
+    "dosen": "ari.w made.harta rizal.fa",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "4",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2525/"
   },
   "2495": {
     "id": "2495",
@@ -118,6 +142,18 @@
     "applicants": "75",
     "accepted": "25",
     "apply_url": "/lowongan/detailLamaran/2496/"
+  },
+  "2526": {
+    "id": "2526",
+    "term": "Ganjil 2026/2027",
+    "course": "Kalkulus 2 — CSCM601213 — • 01.00.12.01-2024 — • S1",
+    "dosen": "chan",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2526/"
   },
   "2508": {
     "id": "2508",
@@ -211,7 +247,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2523/"
   },
@@ -347,6 +383,18 @@
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2519/"
   },
+  "2527": {
+    "id": "2527",
+    "term": "Ganjil 2026/2027",
+    "course": "Rekayasa Perangkat Lunak — CSCM603125 — • 01.00.12.01-2024 — • S1",
+    "dosen": "iis mayaretno maya.retno",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "6",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2527/"
+  },
   "2500": {
     "id": "2500",
     "term": "Ganjil 2026/2027",
@@ -358,6 +406,18 @@
     "applicants": "6",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2500/"
+  },
+  "2528": {
+    "id": "2528",
+    "term": "Ganjil 2026/2027",
+    "course": "Sistem Operasi — CSCM602055 — • 01.00.12.01-2024 — • S1",
+    "dosen": "mishbah amril.syalim hendrieg",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "6",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2528/"
   },
   "2514": {
     "id": "2514",
