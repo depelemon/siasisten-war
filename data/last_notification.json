@@ -1,18 +1,18 @@
 {
-  "message_id": "1527482616226254951",
-  "check_count": 6226,
+  "message_id": "1527503970938130525",
+  "check_count": 6243,
   "positions": [
     {
-      "id": "2506",
+      "id": "2519",
       "term": "Ganjil 2026/2027",
-      "course": "Pengantar Sistem Digital — CSCM601150 — • 02.00.12.01-2024 — • S1 Kls Internasional",
-      "dosen": "efi",
+      "course": "Proyek Perangkat Lunak — CSCM603228 — • 01.00.12.01-2024 — • S1",
+      "dosen": "ilma.ainur12 adea putu.edy",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "5",
-      "applicants": "8",
+      "slots": "6",
+      "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2506/"
+      "apply_url": "/lowongan/daftarLowongan/2519/"
     }
   ]
 }
