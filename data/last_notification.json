@@ -1,18 +1,30 @@
 {
-  "message_id": "1527610953489977435",
-  "check_count": 6328,
+  "message_id": "1527614681382912055",
+  "check_count": 6331,
   "positions": [
     {
-      "id": "2520",
+      "id": "2522",
       "term": "Ganjil 2026/2027",
-      "course": "Logika dan Struktur Diskret — CSAM601010 — • 10.00.12.01-2026 — • S1",
-      "dosen": "saptawijaya",
+      "course": "Kerja Praktik 6 SKS — CSGE604097 — • 01.00.12.01-2024 — • S1",
+      "dosen": "jessica.n iis okkyibrohim",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "3",
-      "applicants": "7",
+      "slots": "2",
+      "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2520/"
+      "apply_url": "/lowongan/daftarLowongan/2522/"
+    },
+    {
+      "id": "2523",
+      "term": "Ganjil 2026/2027",
+      "course": "Metodologi Penelitian & Penulisan Ilmiah — CSGE603091 — • 01.00.12.01-2024 — • S1",
+      "dosen": "yova yektiwirani putu.wuri",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2523/"
     }
   ]
 }

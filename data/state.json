@@ -131,6 +131,18 @@
     "accepted": "3",
     "apply_url": "/lowongan/daftarLowongan/2508/"
   },
+  "2522": {
+    "id": "2522",
+    "term": "Ganjil 2026/2027",
+    "course": "Kerja Praktik 6 SKS — CSGE604097 — • 01.00.12.01-2024 — • S1",
+    "dosen": "jessica.n iis okkyibrohim",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2522/"
+  },
   "2509": {
     "id": "2509",
     "term": "Ganjil 2026/2027",
@@ -151,7 +163,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "3",
-    "applicants": "9",
+    "applicants": "10",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2520/"
   },
@@ -190,6 +202,18 @@
     "applicants": "3",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2521/"
+  },
+  "2523": {
+    "id": "2523",
+    "term": "Ganjil 2026/2027",
+    "course": "Metodologi Penelitian & Penulisan Ilmiah — CSGE603091 — • 01.00.12.01-2024 — • S1",
+    "dosen": "yova yektiwirani putu.wuri",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "4",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2523/"
   },
   "2493": {
     "id": "2493",
