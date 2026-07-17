@@ -1,6 +1,6 @@
 {
-  "message_id": "1527535536376512717",
-  "check_count": 6268,
+  "message_id": "1527610953489977435",
+  "check_count": 6328,
   "positions": [
     {
       "id": "2520",
@@ -10,21 +10,9 @@
       "status": "Dibuka",
       "can_apply": true,
       "slots": "3",
-      "applicants": "0",
+      "applicants": "7",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2520/"
-    },
-    {
-      "id": "2521",
-      "term": "Ganjil 2026/2027",
-      "course": "Matematika Diskret 1 — CSGE601010 — • 02.00.12.01-2024 — • S1 Kls Internasional",
-      "dosen": "saptawijaya",
-      "status": "Dibuka",
-      "can_apply": true,
-      "slots": "2",
-      "applicants": "0",
-      "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2521/"
     }
   ]
 }

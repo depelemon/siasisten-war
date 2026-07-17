@@ -19,7 +19,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "10",
-    "applicants": "10",
+    "applicants": "11",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2515/"
   },
@@ -149,11 +149,11 @@
     "course": "Logika dan Struktur Diskret — CSAM601010 — • 10.00.12.01-2026 — • S1",
     "dosen": "saptawijaya",
     "status": "Dibuka",
-    "can_apply": false,
+    "can_apply": true,
     "slots": "3",
-    "applicants": "8",
+    "applicants": "7",
     "accepted": "0",
-    "apply_url": "/lowongan/detailLamaran/2520/"
+    "apply_url": "/lowongan/daftarLowongan/2520/"
   },
   "2511": {
     "id": "2511",
