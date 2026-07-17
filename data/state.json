@@ -902,11 +902,11 @@
   "2487": {
     "id": "2487",
     "term": "Ganjil 2026/2027",
-    "course": "Struktur Linear — CSAM601012 — • 10.00.12.01-2026",
+    "course": "Struktur Linear — CSAM601012 — • 10.00.12.01-2026 — • S1",
     "dosen": "alfan",
     "status": "Dibuka",
     "can_apply": true,
-    "slots": "2",
+    "slots": "3",
     "applicants": "15",
     "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2487/"
