@@ -7,7 +7,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2554/"
   },
@@ -43,7 +43,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "10",
-    "applicants": "13",
+    "applicants": "14",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2515/"
   },
@@ -79,7 +79,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "1",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2552/"
   },
@@ -151,7 +151,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "1",
+    "applicants": "3",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2556/"
   },
@@ -163,7 +163,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "22",
+    "applicants": "23",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2507/"
   },
@@ -262,6 +262,18 @@
     "applicants": "6",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2526/"
+  },
+  "2560": {
+    "id": "2560",
+    "term": "Ganjil 2026/2027",
+    "course": "Kalkulus Univariat — CSAM601011 — • 10.00.12.01-2026 — • S1",
+    "dosen": "adila",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2560/"
   },
   "2508": {
     "id": "2508",
@@ -394,6 +406,18 @@
     "applicants": "4",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2521/"
+  },
+  "2557": {
+    "id": "2557",
+    "term": "Ganjil 2026/2027",
+    "course": "Metodologi Penelitian & Penulisan Ilmiah — CSGE602091 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "evi.y",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2557/"
   },
   "2523": {
     "id": "2523",
@@ -635,6 +659,18 @@
     "accepted": "2",
     "apply_url": "/lowongan/daftarLowongan/2519/"
   },
+  "2558": {
+    "id": "2558",
+    "term": "Ganjil 2026/2027",
+    "course": "Proyek Perangkat Lunak — CSCM603228 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "putu.edy",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2558/"
+  },
   "2529": {
     "id": "2529",
     "term": "Ganjil 2026/2027",
@@ -679,7 +715,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "2",
+    "applicants": "3",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2553/"
   },
@@ -718,6 +754,18 @@
     "applicants": "0",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2539/"
+  },
+  "2559": {
+    "id": "2559",
+    "term": "Ganjil 2026/2027",
+    "course": "Statistika dan Probabilitas — CSCM602013 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "rahmad.mahendra",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2559/"
   },
   "2514": {
     "id": "2514",

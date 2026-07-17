@@ -1,54 +1,54 @@
 {
-  "message_id": "1527631099696779278",
-  "check_count": 6344,
+  "message_id": "1527633573245489213",
+  "check_count": 6346,
   "positions": [
     {
-      "id": "2554",
+      "id": "2560",
       "term": "Ganjil 2026/2027",
-      "course": "Aljabar Linier — CSGE602012 — • 02.00.12.01-2024 — • S1 Kls Internasional",
-      "dosen": "dina",
+      "course": "Kalkulus Univariat — CSAM601011 — • 10.00.12.01-2026 — • S1",
+      "dosen": "adila",
       "status": "Dibuka",
       "can_apply": true,
       "slots": "2",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2554/"
+      "apply_url": "/lowongan/daftarLowongan/2560/"
     },
     {
-      "id": "2555",
+      "id": "2557",
       "term": "Ganjil 2026/2027",
-      "course": "Analisis Numerik — CSCM603117 — • 02.00.12.01-2024 — • S1 Kls Internasional",
-      "dosen": "chan",
+      "course": "Metodologi Penelitian & Penulisan Ilmiah — CSGE602091 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "evi.y",
       "status": "Dibuka",
       "can_apply": true,
       "slots": "2",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2555/"
+      "apply_url": "/lowongan/daftarLowongan/2557/"
     },
     {
-      "id": "2556",
+      "id": "2558",
       "term": "Ganjil 2026/2027",
-      "course": "Dasar-Dasar Pemrograman 1 — CSGE601020 — • 02.00.12.01-2024 — • S1 Kls Internasional",
-      "dosen": "yohanes",
+      "course": "Proyek Perangkat Lunak — CSCM603228 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "putu.edy",
       "status": "Dibuka",
       "can_apply": true,
       "slots": "2",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2556/"
+      "apply_url": "/lowongan/daftarLowongan/2558/"
     },
     {
-      "id": "2553",
+      "id": "2559",
       "term": "Ganjil 2026/2027",
-      "course": "Sistem Interaksi — CSGE602024 — • 02.00.12.01-2024 — • S1 Kls Internasional",
-      "dosen": "lia.sadita",
+      "course": "Statistika dan Probabilitas — CSCM602013 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "rahmad.mahendra",
       "status": "Dibuka",
       "can_apply": true,
       "slots": "2",
-      "applicants": "1",
+      "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2553/"
+      "apply_url": "/lowongan/daftarLowongan/2559/"
     }
   ]
 }
