@@ -1,6 +1,6 @@
 {
   "message_id": "1527624760908058751",
-  "check_count": 6341,
+  "check_count": 6342,
   "positions": [
     {
       "id": "2530",
@@ -157,6 +157,66 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2540/"
+    },
+    {
+      "id": "2543",
+      "term": "Ganjil 2026/2027",
+      "course": "Dasar-Dasar Audit SI — CSIE604181 — • 06.00.12.01-2024 — • S1",
+      "dosen": "hanafitriani",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2543/"
+    },
+    {
+      "id": "2544",
+      "term": "Ganjil 2026/2027",
+      "course": "E-Dagang — CSIE604160 — • 06.00.12.01-2024 — • S1",
+      "dosen": "shabrina.salsabila12 yektiwirani",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2544/"
+    },
+    {
+      "id": "2545",
+      "term": "Ganjil 2026/2027",
+      "course": "Kesehatan Elektronik — CSIE604161 — • 06.00.12.01-2024 — • S1",
+      "dosen": "putu.wuri",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2545/"
+    },
+    {
+      "id": "2546",
+      "term": "Ganjil 2026/2027",
+      "course": "Manajemen Hubungan Pelanggan — CSIE604163 — • 06.00.12.01-2024 — • S1",
+      "dosen": "annisamonicha yektiwirani",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "4",
+      "applicants": "1",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2546/"
+    },
+    {
+      "id": "2547",
+      "term": "Ganjil 2026/2027",
+      "course": "Manajemen Proses Bisnis — CSIE604262 — • 06.00.12.01-2024 — • S1",
+      "dosen": "annisamonicha",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2547/"
     }
   ]
 }
