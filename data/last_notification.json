@@ -1,6 +1,6 @@
 {
   "message_id": "1527624760908058751",
-  "check_count": 6340,
+  "check_count": 6341,
   "positions": [
     {
       "id": "2530",
@@ -73,6 +73,90 @@
       "applicants": "0",
       "accepted": "0",
       "apply_url": "/lowongan/daftarLowongan/2535/"
+    },
+    {
+      "id": "2541",
+      "term": "Ganjil 2026/2027",
+      "course": "Analitika Media Sosial — CSIE604284 — • 06.00.12.01-2024 — • S1",
+      "dosen": "satrio.baskoro",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2541/"
+    },
+    {
+      "id": "2542",
+      "term": "Ganjil 2026/2027",
+      "course": "Basis Data Lanjut — CSCE604174 — • 06.00.12.01-2024 — • S1",
+      "dosen": "hendrieg",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2542/"
+    },
+    {
+      "id": "2536",
+      "term": "Ganjil 2026/2027",
+      "course": "Penjaminan Mutu Perangkat Lunak — CSCE604126 — • 01.00.12.01-2024 — • S1",
+      "dosen": "dayaadianto",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2536/"
+    },
+    {
+      "id": "2537",
+      "term": "Ganjil 2026/2027",
+      "course": "Praktikum Pemrograman Kompetitif — CSCE604225 — • 01.00.12.01-2024 — • S1",
+      "dosen": "ammar.fathin12",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2537/"
+    },
+    {
+      "id": "2538",
+      "term": "Ganjil 2026/2027",
+      "course": "Simulasi & Pemodelan — CSCE604111 — • 01.00.12.01-2024 — • S1",
+      "dosen": "wnugroho",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2538/"
+    },
+    {
+      "id": "2539",
+      "term": "Ganjil 2026/2027",
+      "course": "Sistem Tertanam — CSCE604151 — • 01.00.12.01-2024 — • S1",
+      "dosen": "santo",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2539/"
+    },
+    {
+      "id": "2540",
+      "term": "Ganjil 2026/2027",
+      "course": "Teknik Kompilator — CSCE604128 — • 01.00.12.01-2024 — • S1",
+      "dosen": "heru",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2540/"
     }
   ]
 }
