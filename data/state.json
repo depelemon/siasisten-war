@@ -31,7 +31,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "6",
-    "applicants": "1",
+    "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2562/"
   },
@@ -79,7 +79,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "6",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2563/"
   },
@@ -263,6 +263,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2525/"
   },
+  "2564": {
+    "id": "2564",
+    "term": "Ganjil 2026/2027",
+    "course": "Jaringan Komunikasi dan Data — CSIM603154 — • 06.00.12.01-2024 — • S1",
+    "dosen": "ari.w ibad.rahadian12",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "4",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2564/"
+  },
   "2495": {
     "id": "2495",
     "term": "Ganjil 2026/2027",
@@ -371,6 +383,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2509/"
   },
+  "2565": {
+    "id": "2565",
+    "term": "Ganjil 2026/2027",
+    "course": "Komunikasi Bisnis dan Teknis — CSIM601191 — • 06.00.12.01-2024 — • S1",
+    "dosen": "shabrina.salsabila12 larastri putu.wuri",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "8",
+    "applicants": "1",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2565/"
+  },
   "2520": {
     "id": "2520",
     "term": "Ganjil 2026/2027",
@@ -379,9 +403,21 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "3",
-    "applicants": "10",
+    "applicants": "11",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2520/"
+  },
+  "2566": {
+    "id": "2566",
+    "term": "Ganjil 2026/2027",
+    "course": "Manajemen Bisnis — CSIM601190 — • 06.00.12.01-2024 — • S1",
+    "dosen": "azzahro.fatimah kamila.alifia12 nandhita.zefania12",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "8",
+    "applicants": "2",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2566/"
   },
   "2546": {
     "id": "2546",
@@ -406,6 +442,30 @@
     "applicants": "0",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2547/"
+  },
+  "2567": {
+    "id": "2567",
+    "term": "Ganjil 2026/2027",
+    "course": "Manajemen Proyek Teknologi Informasi — CSIM602281 — • 06.00.12.01-2024 — • S1",
+    "dosen": "ave.pinem",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "2",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2567/"
+  },
+  "2568": {
+    "id": "2568",
+    "term": "Ganjil 2026/2027",
+    "course": "Manajemen Sistem Informasi — CSIM603182 — • 06.00.12.01-2024 — • S1",
+    "dosen": "widiaresti",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "2",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2568/"
   },
   "2511": {
     "id": "2511",
@@ -611,6 +671,18 @@
     "accepted": "3",
     "apply_url": "/lowongan/daftarLowongan/2501/"
   },
+  "2569": {
+    "id": "2569",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengantar Statistika — CSIM102113 — • 06.00.12.01-2024 — • S1",
+    "dosen": "azzahro.fatimah larastri kamila.alifia12 aminah nizar nabila.clydea02",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "8",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2569/"
+  },
   "2518": {
     "id": "2518",
     "term": "Ganjil 2026/2027",
@@ -775,7 +847,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "6",
-    "applicants": "3",
+    "applicants": "4",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2528/"
   },
