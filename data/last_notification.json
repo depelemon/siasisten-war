@@ -1,18 +1,30 @@
 {
-  "message_id": "1527503970938130525",
-  "check_count": 6243,
+  "message_id": "1527535536376512717",
+  "check_count": 6268,
   "positions": [
     {
-      "id": "2519",
+      "id": "2520",
       "term": "Ganjil 2026/2027",
-      "course": "Proyek Perangkat Lunak — CSCM603228 — • 01.00.12.01-2024 — • S1",
-      "dosen": "ilma.ainur12 adea putu.edy",
+      "course": "Logika dan Struktur Diskret — CSAM601010 — • 10.00.12.01-2026 — • S1",
+      "dosen": "saptawijaya",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "6",
+      "slots": "3",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2519/"
+      "apply_url": "/lowongan/daftarLowongan/2520/"
+    },
+    {
+      "id": "2521",
+      "term": "Ganjil 2026/2027",
+      "course": "Matematika Diskret 1 — CSGE601010 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+      "dosen": "saptawijaya",
+      "status": "Dibuka",
+      "can_apply": true,
+      "slots": "2",
+      "applicants": "0",
+      "accepted": "0",
+      "apply_url": "/lowongan/daftarLowongan/2521/"
     }
   ]
 }

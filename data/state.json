@@ -143,6 +143,18 @@
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2509/"
   },
+  "2520": {
+    "id": "2520",
+    "term": "Ganjil 2026/2027",
+    "course": "Logika dan Struktur Diskret — CSAM601010 — • 10.00.12.01-2026 — • S1",
+    "dosen": "saptawijaya",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "3",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2520/"
+  },
   "2511": {
     "id": "2511",
     "term": "Ganjil 2026/2027",
@@ -166,6 +178,18 @@
     "applicants": "81",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2510/"
+  },
+  "2521": {
+    "id": "2521",
+    "term": "Ganjil 2026/2027",
+    "course": "Matematika Diskret 1 — CSGE601010 — • 02.00.12.01-2024 — • S1 Kls Internasional",
+    "dosen": "saptawijaya",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "2",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2521/"
   },
   "2493": {
     "id": "2493",
@@ -331,7 +355,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "20",
-    "applicants": "37",
+    "applicants": "40",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2517/"
   },
