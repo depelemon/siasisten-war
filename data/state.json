@@ -7,7 +7,7 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "9",
-    "applicants": "40",
+    "applicants": "39",
     "accepted": "9",
     "apply_url": "/lowongan/detailLamaran/2489/"
   },
@@ -19,7 +19,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "10",
-    "applicants": "11",
+    "applicants": "12",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2515/"
   },
@@ -67,7 +67,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "28",
-    "applicants": "117",
+    "applicants": "116",
     "accepted": "23",
     "apply_url": "/lowongan/detailLamaran/2491/"
   },
@@ -115,7 +115,7 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "25",
-    "applicants": "76",
+    "applicants": "75",
     "accepted": "25",
     "apply_url": "/lowongan/detailLamaran/2496/"
   },
@@ -149,11 +149,11 @@
     "course": "Logika dan Struktur Diskret — CSAM601010 — • 10.00.12.01-2026 — • S1",
     "dosen": "saptawijaya",
     "status": "Dibuka",
-    "can_apply": true,
+    "can_apply": false,
     "slots": "3",
-    "applicants": "7",
+    "applicants": "8",
     "accepted": "0",
-    "apply_url": "/lowongan/daftarLowongan/2520/"
+    "apply_url": "/lowongan/detailLamaran/2520/"
   },
   "2511": {
     "id": "2511",
@@ -175,7 +175,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "25",
-    "applicants": "87",
+    "applicants": "86",
     "accepted": "25",
     "apply_url": "/lowongan/daftarLowongan/2510/"
   },
@@ -187,7 +187,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "4",
+    "applicants": "3",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2521/"
   },
@@ -211,7 +211,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "26",
-    "applicants": "102",
+    "applicants": "101",
     "accepted": "22",
     "apply_url": "/lowongan/daftarLowongan/2494/"
   },
