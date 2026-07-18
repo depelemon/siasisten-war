@@ -403,7 +403,7 @@
     "status": "Dibuka",
     "can_apply": false,
     "slots": "3",
-    "applicants": "13",
+    "applicants": "14",
     "accepted": "0",
     "apply_url": "/lowongan/detailLamaran/2520/"
   },
@@ -718,6 +718,18 @@
     "applicants": "2",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2535/"
+  },
+  "2570": {
+    "id": "2570",
+    "term": "Ganjil 2026/2027",
+    "course": "Pengolahan Citra Lanjut — CSCE802231 — • 03.00.12.01-2024 — • S2",
+    "dosen": "laksmita",
+    "status": "Dibuka",
+    "can_apply": true,
+    "slots": "1",
+    "applicants": "0",
+    "accepted": "0",
+    "apply_url": "/lowongan/daftarLowongan/2570/"
   },
   "2536": {
     "id": "2536",
