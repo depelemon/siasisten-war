@@ -1,18 +1,18 @@
 {
-  "message_id": "1528029937305518093",
-  "check_count": 6605,
+  "message_id": "1528313055967056045",
+  "check_count": 6828,
   "positions": [
     {
-      "id": "2570",
+      "id": "2572",
       "term": "Ganjil 2026/2027",
-      "course": "Pengolahan Citra Lanjut — CSCE802231 — • 03.00.12.01-2024 — • S2",
-      "dosen": "laksmita",
+      "course": "Sistem Informasi Lanjut — CSIM801180 — • 03.00.12.01-2024 — • S2",
+      "dosen": "dana imairi",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "1",
+      "slots": "2",
       "applicants": "0",
       "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2570/"
+      "apply_url": "/lowongan/daftarLowongan/2572/"
     }
   ]
 }
