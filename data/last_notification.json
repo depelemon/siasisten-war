@@ -1,18 +1,18 @@
 {
-  "message_id": "1528313055967056045",
-  "check_count": 6828,
+  "message_id": "1528647770942996493",
+  "check_count": 7086,
   "positions": [
     {
-      "id": "2572",
+      "id": "2515",
       "term": "Ganjil 2026/2027",
-      "course": "Sistem Informasi Lanjut — CSIM801180 — • 03.00.12.01-2024 — • S2",
-      "dosen": "dana imairi",
+      "course": "Analisis Numerik — CSCM603117 — • 01.00.12.01-2024 — • S1",
+      "dosen": "meganingrum okkyibrohim",
       "status": "Dibuka",
       "can_apply": true,
-      "slots": "2",
-      "applicants": "0",
-      "accepted": "0",
-      "apply_url": "/lowongan/daftarLowongan/2572/"
+      "slots": "10",
+      "applicants": "20",
+      "accepted": "9",
+      "apply_url": "/lowongan/daftarLowongan/2515/"
     }
   ]
 }
