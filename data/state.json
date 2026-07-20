@@ -52,12 +52,12 @@
     "term": "Ganjil 2026/2027",
     "course": "Analisis Numerik — CSCM603117 — • 01.00.12.01-2024 — • S1",
     "dosen": "meganingrum okkyibrohim",
-    "status": "Dibuka",
-    "can_apply": true,
+    "status": "Ditutup",
+    "can_apply": false,
     "slots": "10",
     "applicants": "20",
     "accepted": "9",
-    "apply_url": "/lowongan/daftarLowongan/2515/"
+    "apply_url": "/lowongan/detailLamaran/2515/"
   },
   "2541": {
     "id": "2541",
