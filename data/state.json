@@ -844,12 +844,12 @@
     "term": "Ganjil 2026/2027",
     "course": "Sistem Interaksi — CSGE602024 — • 02.00.12.01-2024 — • S1 Kls Internasional",
     "dosen": "lia.sadita",
-    "status": "Dibuka",
-    "can_apply": true,
+    "status": "Ditutup",
+    "can_apply": false,
     "slots": "2",
     "applicants": "13",
     "accepted": "0",
-    "apply_url": "/lowongan/daftarLowongan/2553/"
+    "apply_url": "/lowongan/detailLamaran/2553/"
   },
   "2500": {
     "id": "2500",
