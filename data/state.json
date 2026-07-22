@@ -340,12 +340,12 @@
     "term": "Ganjil 2026/2027",
     "course": "Kerja Praktik 6 SKS — CSGE604097 — • 01.00.12.01-2024 — • S1",
     "dosen": "jessica.n iis okkyibrohim",
-    "status": "Dibuka",
-    "can_apply": true,
+    "status": "Ditutup",
+    "can_apply": false,
     "slots": "2",
     "applicants": "5",
     "accepted": "0",
-    "apply_url": "/lowongan/daftarLowongan/2522/"
+    "apply_url": "/lowongan/detailLamaran/2522/"
   },
   "2545": {
     "id": "2545",
