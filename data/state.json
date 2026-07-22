@@ -379,7 +379,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "3",
+    "applicants": "4",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2509/"
   },
@@ -523,7 +523,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
-    "applicants": "14",
+    "applicants": "15",
     "accepted": "1",
     "apply_url": "/lowongan/daftarLowongan/2523/"
   },
@@ -1003,7 +1003,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "1",
-    "applicants": "28",
+    "applicants": "27",
     "accepted": "9",
     "apply_url": "/lowongan/daftarLowongan/2478/"
   },
@@ -1039,7 +1039,7 @@
     "status": "Ditutup",
     "can_apply": false,
     "slots": "2",
-    "applicants": "7",
+    "applicants": "6",
     "accepted": "2",
     "apply_url": "/lowongan/detailLamaran/2484/"
   },
