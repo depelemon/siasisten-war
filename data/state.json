@@ -247,7 +247,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "1",
+    "applicants": "0",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2530/"
   },
@@ -699,7 +699,7 @@
     "id": "2549",
     "term": "Ganjil 2026/2027",
     "course": "Pengelolaan Produk Digital — CSCE604278 — • 06.00.12.01-2024 — • S1",
-    "dosen": "ave.pinem p.indahati",
+    "dosen": "ave.pinem p.indahati hanafitriani",
     "status": "Dibuka",
     "can_apply": true,
     "slots": "4",
