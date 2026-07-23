@@ -247,7 +247,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "0",
+    "applicants": "1",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2530/"
   },
@@ -763,7 +763,7 @@
     "status": "Dibuka",
     "can_apply": true,
     "slots": "2",
-    "applicants": "19",
+    "applicants": "18",
     "accepted": "0",
     "apply_url": "/lowongan/daftarLowongan/2492/"
   },
